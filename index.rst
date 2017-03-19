@@ -1,5 +1,7 @@
-Welcome to PacSAFE's documentation!
-===================================
+PacSAFE Training Workshop Documentation
+=======================================
+
+*Tonga, April, 2018*
 
 .. toctree::
    :maxdepth: 2
@@ -7,18 +9,17 @@ Welcome to PacSAFE's documentation!
 
 
 
-Indices and tables
-==================
+.. Indices and tables
+.. ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`
 
 
 
-PacSAFE Training Workshop – Tonga
-
-Course objectives
+Course Objectives
+=================
 
 *   General
 
@@ -137,6 +138,7 @@ Course objectives
 
 
 Target Audience
+===============
 
 *   Persons responsible for developing disaster management plans
 
@@ -151,9 +153,9 @@ Target Audience
 
 
 Prerequisites
+=============
 
 *   Ability to operate a computer (word processors, presentations, spreadsheets, internet, etc.)
-
 
 
 *   Computer with:
@@ -166,13 +168,12 @@ Prerequisites
 
 
 
-
-
 *   Basic skills in Geographic Information Systems (GIS) are an advantage, but not essential.
 
 
 
 Credits
+=======
 
 PacSAFE is based on QGIS and the InaSAFE plugin, and was originally developed by SPC, funded by the Asian Development Bank as part of the project Strengthening Disaster and Climate Risk Resilience in Urban Development (TA-8238-REG).
 
@@ -185,6 +186,7 @@ This PacSAFE training manual was developed by Geoscience Australia, based on the
 ).
 
 Licencing
+=========
 
 |1000000000000148000000763C22F77D7C299FDD_jpg|
 
@@ -196,7 +198,7 @@ With the exception of the Commonwealth Coat of Arms and where otherwise noted, t
 
 
 Introducing PacSAFE
-
+===================
 The PacSAFE project is a
 response to demand from Pacific Island Countries for tools to better understand disaster impacts. The PacSAFE software tool is designed and developed
 for
@@ -231,20 +233,21 @@ Each country faces its own unique challenges. Based on the
 
 The PacSAFE project aims to provide a tool that will enhance the ability of disaster managers to prepare for and respond to disasters, and to reduce the impacts of disasters on the local population and infrastructure.
 
-Open source
+**Open source**
 
 From the beginning, PacSAFE has been an open source project (GPL license). This means there are no licensing fees, the software can be freely copied and shared with anyone, and the source codes used to create the software are freely available which means that anyone with a little technical knowledge can contribute to the project. Being an Open Source project is important for us because we want as many people as possible to be able to use and improve the software. If ‘better planning saves lives’, having a tool that can be used by everyone to do better planning makes sense, right?
 
-Open data
+**Open data**
 
 A key driving force in the ability to use tools such as PacSAFE is open access to relevant, up-to-date and well maintained geospatial data. Without roads, buildings, administrative areas, flood and population data etc., a tool like PacSAFE would be impossible to use. PCRAFI, OpenStreetMap.org, WorldPop and many government and non-government organisations around the world have been leading the effort to make such datasets available. We cannot emphasise enough the importance of government in taking a lead role in making their data freely available so that it can be used for the benefit of their citizens.
 
 
 PacSAFE concepts
+================
 
 In this section we explain the key concepts of PacSAFE and explore the merits of disaster management planning.
 
-How does PacSAFE work?
+**How does PacSAFE work?**
 
 PacSAFE combines one exposure layer (e.g. location of buildings) with one hazard scenario (e.g. the footprint of a tropical cyclone) and returns a spatial impact layer along with a statistical summary and action questions. PacSAFE is framed around answering questions such as: “
 *In the event of a flood similar to the 2012 Nadi event, how many people might need evacuation?*
@@ -256,7 +259,7 @@ Figure
 : PacSAFE concepts. NEEDS TO BE UPDATED TO REFLECT PREPACKAGED DATA SUPPLY
 
 
-Definitions
+**Definitions**
 
 Before we start, here are some definitions you may find useful.
 
@@ -275,6 +278,7 @@ Source: 
 `http://www.unisdr.org/we/inform/terminology <http://www.unisdr.org/we/inform/terminology>`_
 
 What is disaster management?
+============================
 
 In the context of disaster management, the expected ‘normal’ situation is that there is no disaster in progress and people are going about their normal daily lives. Disaster managers need to plan for the occasions when the ‘normal’ situation has been replaced by a disaster and people can no longer go about their normal daily lives. In order to prepare for such situations, disaster managers need to have a basic understanding of questions like:
 
@@ -307,6 +311,7 @@ Knowing the likely answers to these questions can be helpful to disaster manager
 This planning might also take into account expected impacts on infrastructure - for example by planning to have sufficient rescue boats should all the local roads be flooded.
 
 What is a hazard?
+=================
 
 
 |100002010000007D0000005F573048AF9A3DA6CA_png|
@@ -406,7 +411,8 @@ Requirements for using flood data in InaSAFE
 |                          |                                                                     |
 +--------------------------+---------------------------------------------------------------------+
 
-What is exposure?
+What is exposure data?
+======================
 
 In the context of PacSAFE, exposure refers to people, infrastructure or land areas that may be affected by a disaster. Currently PacSAFE supports four kinds of exposure data:
 
@@ -426,7 +432,7 @@ In the context of PacSAFE, exposure refers to people, infrastructure or land are
 
 
 
-*Roads data*
+**Roads data**
 
 
 Road datasets are a useful data source when you want to understand the impact of a flood on roads infrastructure. With the PacSAFE flood on roads impact functions; you can calculate which roads of which type might be impacted by a flood.
@@ -453,7 +459,7 @@ There are numerous ways to download OpenStreetMap roads data, but our recommende
 |            |                                                                     |
 +------------+---------------------------------------------------------------------+
 
-*Buildings (structure) data*
+**Buildings (structure) data**
 
 
 Like roads, building footprints can be a useful dataset to have for understanding the impacts of a flood. For example you may wish to know ‘how many buildings might be flooded, and what types of buildings are they?’. In PacSAFE you do not need to use engineering quality data. We are more concerned with the numbers and types of structures affected by a disaster and do not work at engineering tolerances needed when, for example, planning a new water mains system.
@@ -475,7 +481,7 @@ Like roads, building footprints can be a useful dataset to have for understandin
 |            |                                                                     |
 +------------+---------------------------------------------------------------------+
 
-*Population data*
+**Population data**
 
 
 Population data can often be obtained from your census bureau or through various online data sources. One problem with population data is that it is often quite coarse (represented using a raster with a large pixel size) and so analysis at large scales (e.g. a small neighbourhood) using population data may not always be the best idea. Currently InaSAFE only supports raster based census data, but in the near future we will be releasing a version that supports assigning population estimates to buildings using census data. One of the best online resources for population data is ‘WorldPop’ - a project that aims to provide population data for anywhere in the globe produced in a standardised and rigorous way.
@@ -497,7 +503,7 @@ Population data can often be obtained from your census bureau or through various
 |                  |                                                            |
 +------------------+------------------------------------------------------------+
 
-*Landcover data*
+**Landcover data**
 
 
 Landcover data can often be obtained from national mapping agencies or through various online data sources. Landcover data are useful if you want to assess the impact of a hazard event such as a volcanic eruption on crops.
@@ -519,7 +525,7 @@ Landcover data can often be obtained from national mapping agencies or through v
 |            |                                                       |
 +------------+-------------------------------------------------------+
 
-What is aggregation?
+**What is aggregation?**
 
 Aggregation is the process whereby we group the results of the analysis by district so that you can see how many people, roads or buildings were affected in each area. This will help you to understand where the most critical needs are, and to generate reports as shown in the image below. Aggregation is optional in PacSAFE - if you do not use aggregation, the entire analysis area will be used for the data summaries. Typically aggregation layers in PacSAFE have as attributes the name of the district or reporting area. It is also possible to use extended attributes to indicate the ratio of men and women; youth, adults and elderly living in each area. Where these are provided and the exposure layer is population, PacSAFE will provide a demographic breakdown per aggregation area indicating how many men, women etc. were probably affected in that area.
 
@@ -528,7 +534,7 @@ Aggregation is the process whereby we group the results of the analysis by distr
 *Figure *
 *: Example of aggregation data for Tonga. In this case the aggregation areas are villages. Source: PCRAFI.*
 
-What is contextual data?
+**What is contextual data?**
 
 Contextual data are data that provide a sense of place and scale when preparing or viewing the results of analysis, while not actually being used for the analysis. For example you may include online maps to show the underlying relief of the study area, or an aerial image to show what buildings and infrastructure exist in the area.
 
@@ -537,7 +543,7 @@ Contextual data are data that provide a sense of place and scale when preparing 
 *Figure *
 *: Aerial imagery for Nuku'alofa, Tonga. Source: PCRAFI*
 
-What is the difference between raster and vector data?
+**What is the difference between raster and vector data?**
 
 Vector data is arguably the most common kind of data you will find in the daily use of GIS. It describes geographic data in terms of points that may be connected into lines and polygons. Every object in a vector dataset is called a feature, and is associated with data that describes that feature. The basic shape of objects stored in the vector data is defined with a two-dimensional coordinate system / Cartesian (x, y).
 
@@ -593,6 +599,7 @@ Figure
 PacSAFE will show you what your current desired analysis extent is (blue box), what the extent of your last analysis was (red box in the image above) and what your effective extent is (green box in the image above). The effective extent may not correspond exactly to your desired analysis extent because PacSAFE always aligns the extent to the edge of raster pixels.
 
 What is an Impact Function?
+===========================
 
 |10000201000004270000021EB2807F8F2C80E98E_png|
 
@@ -600,7 +607,7 @@ An Impact Function (often abbreviated to IF) is software code in PacSAFE that im
 
 Again, we should emphasise here that Impact Functions do not model hazards - they model the effects of one or more hazard events on an exposure layer. PacSAFE groups its impact functions according to the kind of hazard they work on:
 
-Supported data types for each hazard type in InaSAFE
+*Supported data types for each hazard type in InaSAFE:*
 
 |100002010000004400000044CC8C90B40B155577_png|
 **Earthquake Impact Functions**
@@ -691,7 +698,7 @@ It should also be noted that the impact layer will only include features / cells
 
 |1000020100000498000004CC90E5D7823F02EB7A_png|
 
-What is the impact summary?
+**What is the impact summary?**
 
 Whereas the impact layer represents spatial data, the impact summary is tabular and textual data. The impact summary provides a table (or series of tables) and other textual information with the numbers of buildings, roads or people affected, and includes other useful information such as minimum needs breakdowns, action checklists and summaries. The impact summary presents the results of the impact function in an easy to digest form. Our expectation that the numbers show here would form part of the input to your emergency management planning process - typically as a launch point for discussion and planning on how to have sufficient resources in order to cater for the impacted people, buildings or roads should a similar event to the one on which the scenario is based occur. An example of an impact summary is shown below.
 
@@ -701,25 +708,26 @@ Whereas the impact layer represents spatial data, the impact summary is tabular 
 *Figure *
 *: Example impact summary table showing breakdown of buildings flooded.*
 
-What are minimum needs?
+**What are minimum needs?**
 
 Minimum needs are a population specific reporting component for the impact summary. They are based on generic or regional preferences and define the daily food and well-being requirements for each individual who may be displaced during a disaster. For example you could specify that each person should receive 20l of fresh drinking water per day, 50l of bathing water and so on. PacSAFE will calculate these numbers to provide an estimate of the total needs for the displaced population.
 
 
 |10000201000003AD000000CEA674FD7370360E6F_png|
 
-What are action checklists?
+**What are action checklists?**
 
 Action checklists are generated lists of things disaster managers should consider when implementing their disaster management plan. Currently the action checklists are fairly simplistic - they are intended to prompt discussion and stimulate disaster managers to think about the important contingencies they should have in place.
 
 
 |10000201000002E0000001C2CEDFED88A69ED83E_png|
 
-Datasets
+**Datasets**
 
 *Current content has InaSAFE specific datasets – need to update in consultation with Sachin & Lauren*
 
 Introduction to PacSAFE
+=======================
 
 Introduction
 
@@ -738,6 +746,7 @@ Learning objectives
 
 
 Exercises
+=========
 
 **Getting PacSAFE**
 
@@ -758,14 +767,15 @@ Exercises
 **Summary**
 
 Run PacSAFE
+===========
 
-Introduction
+**Introduction**
 
 In this exercise, we will work through an example scenario where we show how the different data elements used by PacSAFE are combined in order to analyse the potential impact of a tsunami on both the buildings and population.
 
 After we have run the PacSAFE analysis we will print the map and analysis report as a pdf and review the results. We will also learn how to change the inundation threshold and take a look at the default settings for minimum needs. We will also learn how to save our work.
 
-Learning objective
+**Learning objective**
 
 To develop the participant’s basic understanding of the InaSAFE workflow and application of InaSAFE in the Disaster Management sector. By the end of this exercise, participants will:
 
@@ -798,11 +808,10 @@ To develop the participant’s basic understanding of the InaSAFE workflow and a
 
 
 
-Data for this exercise
+*Data for this exercise*
 
 The data for this exercise are
-packaged
-in the PacSAFE application.
+packaged in the PacSAFE application.
 There is no need to download data to run the exercises.
 
 .. |1000000000000148000000763C22F77D7C299FDD_jpg| image:: images/1000000000000148000000763C22F77D7C299FDD.jpg
