@@ -373,7 +373,7 @@ they work on:
 Supported data types for each hazard type in  |project_name|
 ............................................................
 
-.. image:: /static/training/socialisation/icon_earthquake.*
+.. image:: /images/icon_earthquake.*
    :align: left
    :width: 120 pt
 
@@ -388,7 +388,7 @@ Earthquake Impact Functions
 
 
 
-.. image:: /static/training/socialisation/icon_flood.*
+.. image:: /images/icon_flood.*
    :align: left
    :width: 120 pt
 
@@ -405,7 +405,7 @@ Flood Impact Functions
 
 
 
-.. image:: /static/training/socialisation/icon_tsunami.*
+.. image:: /images/icon_tsunami.*
    :align: left
    :width: 120 pt
 
@@ -422,7 +422,7 @@ Tsunami Impact Functions
 
 
 
-.. image:: /static/training/socialisation/icon_volcano.*
+.. image:: /images/icon_volcano.*
    :align: left
    :width: 120 pt
 
@@ -437,7 +437,7 @@ Volcano Impact Functions
 
 
 
-.. image:: /static/training/socialisation/icon_volcanic_ash.*
+.. image:: /images/icon_volcanic_ash.*
    :align: left
    :width: 120 pt
 
@@ -451,7 +451,7 @@ Volcanic Ash Impact Functions
 **Building exposure**: classified polygon with a type attribute
 
 
-.. image:: /static/training/socialisation/icon_generic.*
+.. image:: /images/icon_generic.*
    :align: left
    :width: 120 pt
 
@@ -560,7 +560,7 @@ Again, we should emphasise here that Impact Functions do not model hazards - the
 
 *Supported data types for each hazard type in InaSAFE:*
 
-.. image:: images/100002010000004400000044CC8C90B40B155577.png
+.. image:: images/icon_earthquake.png
    :align: left
 
 **Earthquake Impact Functions**
@@ -572,7 +572,7 @@ Population exposure: continuous raster with counts
 Building exposure: classified polygon or point with a type attribute
 
 
-.. image:: images/100002010000004400000043EAFCCD2DA5D63DDE.png
+.. image:: images/icon_flood.png
    :align: left
 
 **Flood Impact Functions**
@@ -585,7 +585,7 @@ Building exposure: classified polygon or point with a type attribute
 
 Road exposure: classified line with a type attribute
 
-.. image:: images/1000020100000043000000442857E450D7916541.png
+.. image:: images/icon_tsunami.png
    :align: left
 
 **Tsunami Impact Functions**
@@ -599,7 +599,7 @@ Building exposure: classified polygon with a type attribute
 Road exposure: classified line with a type attribute
 
 
-.. image:: images/1000020100000044000000445540F66CD7333DAE.png
+.. image:: images/icon_volcano.png
    :align: left
 
 **Volcano Impact Functions**
@@ -611,7 +611,7 @@ Population exposure: continuous raster with counts
 Building exposure: classified polygon with a type attribute
 
 
-.. image:: images/1000020100000044000000443D54B4E784144E4C.png
+.. image:: images/icon_volcanic_ash.png
    :align: left
 
 **Volcanic Ash Impact Functions**
@@ -622,7 +622,7 @@ Population exposure: continuous raster with counts
 
 Building exposure: classified polygon with a type attribute
 
-.. image:: images/100002010000009C0000009C43C8B8C251794B3E.png
+.. image:: images/icon_cyclone.png
    :align: left
 
 **Cyclone Impact Functions**
@@ -634,7 +634,7 @@ Population exposure: continuous raster with counts
 Building exposure: classified polygon with a type attribute
 
 
-.. image:: images/10000201000000440000004452F6510DADA0A162.png
+.. image:: images/icon_generic.png
    :align: left
 
 **Generic Impact Functions**
