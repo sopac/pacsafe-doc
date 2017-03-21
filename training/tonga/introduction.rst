@@ -4,19 +4,23 @@ The PacSAFE project is a response to demand from Pacific Island Countries for to
 
 The PacSAFE software tool was initially developed by the Pacific Community for urban planners to interact with hazard and asset data, such as the Pacific Catastrophe Risk Assessment and Financing Initiative (PCRAFI) asset database. PacSAFE is built upon the highly successful InaSAFE project (`http://inasafe.org <http://inasafe.org>`_) and the QGIS Geographic Information System (`http://www.qgis.org <http://www.qgis.org>`_). The underlying goal of InaSAFE is to encourage and facilitate better planning for disasters - our slogan is "better planning saves lives".
 
-.. image:: images/100002010000057C0000039673F261A1F4F33886.png
+.. image:: /images/100002010000057C0000039673F261A1F4F33886.png
+   :align: center
 
 Each country faces its own unique challenges. Based on the *Global Assessment Report for Disaster Risk Reduction*, the biggest threats in Tonga are posed by tropical cyclones and storm surge inundation. Other countries will face different challenges, and these challenges may evolve over time.
 
-.. figure:: images/10000000000002A20000012DD9625173C0124347.png
+.. figure:: /images/10000000000002A20000012DD9625173C0124347.png
+   :align: center
 
    Probabilistic risk results for Tonga. GFCF is Gross Fixed Capital Formation. Average Annual Loss is an indicator of the expected loss per year from hazards, averaged over many years. Source: GAR2015.
 
-.. figure:: images/10000000000002AE00000156F2C6DD5A4FA21026.png
+.. figure:: /images/10000000000002AE00000156F2C6DD5A4FA21026.png
+   :align: center
 
    Contribution to average annual loss from different hazards in Tonga. Source: GAR2015.
 
-.. figure:: images/10000000000002A7000001268F8C19B2DCDC3F44.png
+.. figure:: /images/10000000000002A7000001268F8C19B2DCDC3F44.png
+   :align: center
 
    Probable maximum loss for different hazards in Tonga. Source: GAR2015.
 

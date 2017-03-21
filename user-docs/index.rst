@@ -1,19 +1,17 @@
-:tocdepth: 5
+.. _userdocs:
 
-.. _contents:
-
-|project_name| Documentation
-============================
+|project_name| User Documentation
+=================================
 
 .. image:: /images/pacsafe.png
    :align: center
 
+User guides and documentation is maintained here.
+
 .. toctree::
     :maxdepth: 1
 
-    /training/index
-    /user-docs/index
-
+    userguide/index
 
 .. Indices and tables
 .. ==================
@@ -21,14 +19,3 @@
 .. * :ref:`genindex`
 .. * :ref:`modindex`
 .. * :ref:`search`
-
-
-
-
-
-
-
-
-
-
-
