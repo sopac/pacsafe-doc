@@ -50,6 +50,7 @@ master_doc = 'index'
 project = 'pacsafe-doc'
 copyright = '2017, pacsafe@spc.int'
 author = 'pacsafe@spc.int'
+numfig = True
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -74,6 +75,21 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
+
+rst_epilog = """
+.. |project_name| replace:: PacSAFE
+.. |SPC| replace:: SPC_
+.. _SPC: http://gsd.spc.int
+.. |GFDRR| replace:: GFDRR_
+.. _GFDRR: http://www.gfdrr.org/
+.. |GoA| replace:: `Australian Government`_
+.. _Australian Government: http://aid.dfat.gov.au
+.. |GA| replace:: GA_
+.. _GA: http://www.ga.gov.au/
+.. |github| replace:: github_
+.. _github: https://github.com/sopac
+
+"""
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
