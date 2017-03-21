@@ -68,3 +68,4 @@ Summary
 -------
 
 In this exercise you have learned about QGIS, the free and open source software for processing spatial data. You have learned where to get QGIS, how to install QGIS, understand the QGIS layout and looked at some useful toolbars, learning how to turn ON/OFF QGIS layers, and learned how to symbolize the data layers.
+

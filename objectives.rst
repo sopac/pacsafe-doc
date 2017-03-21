@@ -45,8 +45,6 @@ Course Objectives
     *   Configure, update and generate needs analysis for Tonga per hazard
 
 
-
-
 Target Audience
 ---------------
 
@@ -78,7 +76,7 @@ This PacSAFE training manual was developed by Geoscience Australia, based on the
 
 Licence
 -------
-This training manuals is licenced under Creative Commons by Attribution by Kartoza/|SPC|/|GoA|/World Bank-|GFDRR|.
+This training manual is licenced under Creative Commons by Attribution by Kartoza/|SPC|/|GoA|/World Bank-|GFDRR|.
 
 Authors:
 ........
@@ -86,3 +84,4 @@ Authors:
 `Sachindra Singh <sachindras@spc.int>`_, Senior Geospatial Systems Architect - SPC
 
 `Craig Arthur <craig.arthur@ga.gov.au>`_, Pacific Activity Leader - Geoscience Australia
+

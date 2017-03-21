@@ -3,6 +3,8 @@ PacSAFE Training Workshop - Tonga
 
 *Tonga, April, 2017*
 
+.. image:: images/pacsafe.png
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
