@@ -1,19 +1,17 @@
-:tocdepth: 5
+.. _training:
 
-.. _contents:
-
-|project_name| Documentation
-============================
+|project_name| Training Documentation
+=====================================
 
 .. image:: /images/pacsafe.png
    :align: center
 
+Material for training workshops is maintained here.
+
 .. toctree::
     :maxdepth: 1
 
-    /training/index
-    /user-docs/index
-
+    tonga/index
 
 .. Indices and tables
 .. ==================
@@ -21,14 +19,3 @@
 .. * :ref:`genindex`
 .. * :ref:`modindex`
 .. * :ref:`search`
-
-
-
-
-
-
-
-
-
-
-
