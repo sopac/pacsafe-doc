@@ -455,7 +455,7 @@ Each Impact Function will generate outputs that may include:
 - minimum needs
 - action checklists
 
-.. image:: /images/001_inasafe_outputs.png
+.. image:: /images/001_inasafe_output.png
    :align: center
    :width: 300 pt
 
