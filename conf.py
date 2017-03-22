@@ -84,8 +84,8 @@ rst_epilog = """
 .. _GFDRR: http://www.gfdrr.org/
 .. |GoA| replace:: `Australian Government`_
 .. _Australian Government: http://aid.dfat.gov.au
-.. |GA| replace:: GA_
-.. _GA: http://www.ga.gov.au/
+.. |GA| replace:: `Geoscience Australia`_
+.. _Geoscience Australia: http://www.ga.gov.au/
 .. |github| replace:: github_
 .. _github: https://github.com/sopac
 
