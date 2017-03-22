@@ -28,8 +28,7 @@ The PacSAFE project is a response to demand from Pacific Island Countries for to
 
 .. image:: /images/impact_wizard.png                                                                                                                                                          
    :align: center        
-
-
+*PacSAFE Impact Function Wizard Screenshot demonstrating possible expoure/hazard scenarios.*
 
 
 
