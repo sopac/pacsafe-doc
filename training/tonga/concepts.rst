@@ -8,7 +8,7 @@ How does |project_name| work?
 
 |project_name| combines one exposure layer (e.g. location of buildings) with one hazard scenario (e.g. the footprint of a tropical cyclone) and returns a spatial impact layer along with a statistical summary and action questions. |project_name| is framed around answering questions such as: "*In the event of a flood similar to the 2012 Nadi event, how many people might need evacuation?*"
 
-.. figure:: /images/1000020100000174000001554CDAA6814BF94AB3.png
+.. figure:: /images/001_inasafe_concept.png
 
    |project_name| concepts. NEEDS TO BE UPDATED TO REFLECT PREPACKAGED DATA SUPPLY
 
@@ -65,7 +65,7 @@ What is a hazard?
 -----------------
 
 
-.. image:: /images/100002010000007D0000005F573048AF9A3DA6CA.png
+.. image:: /images/001_inasafe_hazard.png
 
 In the context of |project_name|, a hazard is any natural or human caused event or series of events that may negatively impact the population, infrastructure or resources in an area.
 
@@ -99,7 +99,7 @@ There are three main ways that can be used to generate hazard datasets:
 
 
 Local knowledge
----------------
+...............
 
 This is probably the most practical way to gather hazard data quickly. One approach that has been effective in Indonesia is to hold mapping workshops where village chiefs and local officials are invited. The officials are asked to indicate which villages and sub-villages within their area of responsibility flood regularly.
 
@@ -108,24 +108,26 @@ Instead of simply mapping which areas are flooded, it is also possible to take a
 A key requirement for any local knowledge based process is that there are suitable mapping units available to use for deciding if an area is flood prone or not. In some cases participants may need to capture these, in other cases village or sub-village boundaries can be used. Using administrative boundaries may not always be ideal since the flood extents are unlikely to align well with the boundaries, but it may be sufficient for broad planning purposes; especially when response activities are managed at the same administrative level.
 
 Modelling
----------
+.........
 
 *To be updated with general hazard modelling concepts - CA*
 
-Modelling natural hazards is an entire discipline in its own right, and each of the hazards have entire research communities dedicated to modelling events. 
+Modelling natural hazards is an entire discipline in its own right, and each of the hazards have vast research communities dedicated to modelling natural hazards. 
 
-Hazard modelling can be carried out by combining factors such as precipitation, geology and runoff characteristics, terrain etc. to derive a model of impending or current flood. Modelling can use data interpolation techniques - e.g. by taking flood depth readings manually or using telemetry from various sites around the flood prone area, flood depths can be interpolated to estimate the depth at places that were not sampled.
+Hazard modelling aims to use computers to estimate the magnitude of hazard phenomena, using empirical, statistical or numerical representations of the physical characteristics of the hazard event. For example, to model a flood, we would combine factors such as precipitation, geology and runoff characteristics, terrain etc. to derive a model of impending or current flood. 
+
+Modelling can use data interpolation techniques - e.g. by taking flood depth readings manually or using telemetry from various sites around the flood prone area, flood depths can be interpolated to estimate the depth at places that were not sampled.
 
 Another modelling approach used by engineers is to install depth sensors upstream of the catchment and then try to model how much water is coming into the catchment area based on depth and flow rates. This has the potential advantage of giving early warning before floods enter the flood prone area, although it also has the disadvantage that localised rainfall may not be accurately considered in the model.
 
 Using a digital elevation model (DEM) and a stream network, it is also possible to generate a simple model of which areas might be inundated by a water rise in the river network of a certain amount. DEM cells adjacent to the stream network which are below the flood-rise threshold will be considered flooded and then those cell neighbours can in turn be considered so as to ensure that only contiguous areas in the DEM are flagged as inundated. There are various other approaches that can be used to model flood potential that involve using a DEM.
 
-One advantage of using a modelling approach is that it allows us to forecast less frequent events. For example, there may not be localised knowledge about 1 in 50 or 100 year flood events and their impacts, but these can be estimated using modelling techniques. A community may not have experienced a category 5 cyclone, but it may be possible. Again, modelling techniques can enable us to determine what such a cyclone might look like, and what the impacts would be.
+One advantage of using a modelling approach is that it allows us to forecast less frequent events. For example, there may not be localised knowledge about 1 in 50 or 100 year flood events and their impacts, but these can be estimated using modelling techniques. A community may not have experienced a category 5 cyclone, but it may be possible based on conisderation of the climatic setting. Again, modelling techniques can enable us to determine what such a cyclone might look like, and what the likelihood of such a cyclone mught be.
 
 Single-event versus multiple-event hazards
 ------------------------------------------
 
-Hazard data used in |project_name| can represent either single-event or multiple-event. Single event hazards are useful when you want to estimate scenarios like 'how many people would be affected if we had another flood like in 2013'. A single event hazard covers a short span of time - like a single flood or earthquake event. Single event data is also the most suitable to use for events which are stochastic e.g. earthquakes which seldom occur at the same place and with the same intensity more than once.
+Hazard data used in |project_name| can represent either a single event or multiple events. Single event hazards are useful when you want to estimate scenarios like 'how many people would be affected if we had another flood like in 2013'. A single event hazard covers a short span of time - like a single flood or earthquake event. Single event data is also the most suitable to use for events which are stochastic e.g. earthquakes which seldom occur at the same place and with the same intensity more than once.
 
 Multiple-event data are useful when you would like to plan for disasters that repeatedly affect the same area. For example over the course of 10 years, the same districts or sub-districts may get flooded, though not on every event. Flood and volcano eruptions may be good candidates for using multiple-event data in your disaster management planning.
 
@@ -161,7 +163,7 @@ In the context of |project_name|, exposure refers to people, infrastructure or l
 
 
 Roads data
-----------
+..........
 
 
 Road datasets are a useful data source when you want to understand the impact of a flood on roads infrastructure. With the |project_name| flood on roads impact functions; you can calculate which roads of which type might be impacted by a flood.
@@ -190,7 +192,7 @@ There are numerous ways to download OpenStreetMap roads data, but our recommende
 +------------+---------------------------------------------------------------------+
 
 Buildings (structure) data
---------------------------
+..........................
 
 Like roads, building footprints can be a useful dataset to have for understanding the impacts of a flood. For example you may wish to know 'how many buildings might be flooded, and what types of buildings are they?'. In |project_name| you do not need to use engineering quality data. We are more concerned with the numbers and types of structures affected by a disaster and do not work at engineering tolerances needed when, for example, planning a new water mains system.
 
@@ -212,7 +214,7 @@ Like roads, building footprints can be a useful dataset to have for understandin
 +------------+---------------------------------------------------------------------+
 
 Population data
----------------
+...............
 
 
 Population data can often be obtained from your census bureau or through various online data sources. One problem with population data is that it is often quite coarse (represented using a raster with a large pixel size) and so analysis at large scales (e.g. a small neighbourhood) using population data may not always be the best idea. Currently |project_name| only supports raster based census data, but in the near future we will be releasing a version that supports assigning population estimates to buildings using census data. One of the best online resources for population data is ‘WorldPop’ - a project that aims to provide population data for anywhere in the globe produced in a standardised and rigorous way.
@@ -235,7 +237,7 @@ Population data can often be obtained from your census bureau or through various
 +------------------+------------------------------------------------------------+
 
 Landcover data
---------------
+..............
 
 Landcover data can often be obtained from national mapping agencies or through various online data sources. Landcover data are useful if you want to assess the impact of a hazard event such as a volcanic eruption on crops.
 
@@ -317,7 +319,7 @@ What is the analysis extent?
 
 In |project_name| you need to explicitly state what the intended analysis extent should be. In other words, you need to tell |project_name| where the analysis should be carried out. There is a tool in |project_name| that will allow you to drag a box around the intended analysis area - you should always check that you have done this before starting your analysis.
 
-.. figure:: /images/100002010000039F00000355996C0DC117FE9AD6.png
+.. figure:: /images/001_analysis_extent.png
 
    Example extent areas in |project_name|.
 
@@ -325,7 +327,8 @@ In |project_name| you need to explicitly state what the intended analysis extent
 
 What is an Impact Function?
 ---------------------------
-.. image:: /static/training/socialisation/004_impact_function.*
+
+.. image:: /images/001_impact_function.png
    :align: center
    :width: 300 pt
 
@@ -340,12 +343,10 @@ Again, we should emphasise here that Impact Functions **do not model hazards**
 |project_name| groups its impact functions according to the kind of hazard
 they work on:
 
-Supported data types for each hazard type in  |project_name|
-............................................................
-
-.. image:: /images/icon_earthquake.*
+Supported data types for each hazard type in |project_name|
+-----------------------------------------------------------
+.. image:: /images/icon_earthquake.png
    :align: left
-   :width: 120 pt
 
 Earthquake Impact Functions
 ...........................
@@ -358,9 +359,8 @@ Earthquake Impact Functions
 
 
 
-.. image:: /images/icon_flood.*
+.. image:: /images/icon_flood.png
    :align: left
-   :width: 120 pt
 
 Flood Impact Functions
 ......................
@@ -375,9 +375,8 @@ Flood Impact Functions
 
 
 
-.. image:: /images/icon_tsunami.*
+.. image:: /images/icon_tsunami.png
    :align: left
-   :width: 120 pt
 
 Tsunami Impact Functions
 ........................
@@ -392,9 +391,8 @@ Tsunami Impact Functions
 
 
 
-.. image:: /images/icon_volcano.*
+.. image:: /images/icon_volcano.png
    :align: left
-   :width: 120 pt
 
 Volcano Impact Functions
 ........................
@@ -407,9 +405,8 @@ Volcano Impact Functions
 
 
 
-.. image:: /images/icon_volcanic_ash.*
+.. image:: /images/icon_volcanic_ash.png
    :align: left
-   :width: 120 pt
 
 Volcanic Ash Impact Functions
 .............................
@@ -421,9 +418,8 @@ Volcanic Ash Impact Functions
 **Building exposure**: classified polygon with a type attribute
 
 
-.. image:: /images/icon_cyclone.*
+.. image:: /images/icon_cyclone.png
    :align: left
-   :width: 120 pt
 
 Cyclone Impact Functions
 ........................
@@ -433,9 +429,8 @@ Cyclone Impact Functions
 **Building exposure**: classified polygon or point with a type attribute.
 
 
-.. image:: /images/icon_generic.*
+.. image:: /images/icon_generic.png
    :align: left
-   :width: 120 pt
 
 Generic Impact Functions
 ........................
@@ -460,7 +455,7 @@ Each Impact Function will generate outputs that may include:
 - minimum needs
 - action checklists
 
-.. image:: /static/training/socialisation/004_inasafe_outputs.*
+.. image:: /images/001_inasafe_outputs.png
    :align: center
    :width: 300 pt
 
@@ -482,7 +477,7 @@ impact summary (see section below) because they are only relevant to the
 analysis area.  The impact layer is not saved by default. If you want to
 save this spatial data you need to do this yourself.
 
-.. image:: /static/training/socialisation/004_building_output.*
+.. image:: /images/001_building_output.png
    :align: center
    :width: 300 pt
 
@@ -501,7 +496,7 @@ impacted people, buildings or roads should a similar event to the one on
 which the scenario is based occur.
 An example of an impact summary is shown below.
 
-.. image:: /static/training/socialisation/004_impact_summary_buildings.*
+.. image:: /images/001_impact_summary_buildings.png
    :align: center
    :width: 600 pt
 
@@ -517,7 +512,7 @@ should receive 20l of fresh drinking water per day, 50l of bathing water and
 so on. |project_name| will calculate these numbers to provide an estimate of
 the total needs for the displaced population.
 
-.. image:: /static/training/socialisation/004_impact_summary_min_needs.*
+.. image:: /images/001_impact_summary_min_needs.png
    :align: center
    :width: 600 pt
 
@@ -529,146 +524,12 @@ action checklists are fairly simplistic - they are intended to prompt
 discussion and stimulate disaster managers to think about the important
 contingencies they should have in place.
 
-.. image:: /static/training/socialisation/004_impact_summary_actions.*
+.. image:: /images/001_impact_summary_actions.png
    :align: center
    :width: 300 pt
 
 
-.. image:: /images/10000201000004270000021EB2807F8F2C80E98E.png
 
-An Impact Function (often abbreviated to IF) is software code in |project_name| that implements a particular algorithm to determine the impact of a hazard on the selected exposure. Running an impact function is done when you have prepared all your input data, defined your analysis extent and wish to now see the impact outputs.
-
-Again, we should emphasise here that Impact Functions do not model hazards - they model the effects of one or more hazard events on an exposure layer. |project_name| groups its impact functions according to the kind of hazard they work on:
-
-*Supported data types for each hazard type in |project_name|:*
-
-.. image:: /images/icon_earthquake.png
-   :align: left
-
-**Earthquake Impact Functions**
-
-Earthquake hazard: continuous raster, classified raster, and classified polygon
-
-Population exposure: continuous raster with counts
-
-Building exposure: classified polygon or point with a type attribute
-
-
-.. image:: /images/icon_flood.png
-   :align: left
-
-**Flood Impact Functions**
-
-Flood hazard: continuous raster or classified polygon
-
-Population exposure: continuous raster with counts
-
-Building exposure: classified polygon or point with a type attribute
-
-Road exposure: classified line with a type attribute
-
-.. image:: /images/icon_tsunami.png
-   :align: left
-
-**Tsunami Impact Functions**
-
-Tsunami hazard: continuous raster or classified polygon
-
-Population exposure: continuous raster with counts
-
-Building exposure: classified polygon with a type attribute
-
-Road exposure: classified line with a type attribute
-
-
-.. image:: /images/icon_volcano.png
-   :align: left
-
-**Volcano Impact Functions**
-
-Volcano hazard: continuous polygon, classified polygon, and point
-
-Population exposure: continuous raster with counts
-
-Building exposure: classified polygon with a type attribute
-
-
-.. image:: /images/icon_volcanic_ash.png
-   :align: left
-
-**Volcanic Ash Impact Functions**
-
-Volcano hazard: classified polygon or continuous raster
-
-Population exposure: continuous raster with counts
-
-Building exposure: classified polygon with a type attribute
-
-.. image:: /images/icon_cyclone.png
-   :align: left
-
-**Cyclone Impact Functions**
-
-Cyclone hazard: continuous or classified polygon, continuous or classified raster
-
-Population exposure: continuous raster with counts
-
-Building exposure: classified polygon with a type attribute
-
-
-.. image:: /images/icon_generic.png
-   :align: left
-
-**Generic Impact Functions**
-
-Volcano hazard: classified polygon, classified raster or continuous raster
-
-Population exposure: continuous raster with counts
-
-Building exposure: classified polygon with a type attribute
-
-Landcover exposure: classified polygon with a type attribute
-
-A note about generic impact functions: Generic IF’s are useful when your data does not conform to the a priori expectations of |project_name|. For example, you may wish to produce a report on buildings that might be affected by a landslide, drought, smoke haze or any other hazard that does not have an explicit Impact Function in |project_name|.
-
-
-Each Impact Function will generate outputs that may include: - an impact map layer - an impact summary - minimum needs - action checklists
-
-
-.. image:: /images/10000201000005860000018B95ECE8E7C303FD6B.png
-
-**What is an impact layer?**
-
-An impact layer is a new GIS dataset that is produced as the result of running an impact function. It will usually represent the exposure layer. For example, if you do a flood analysis on buildings, the impact layer produced will be a buildings layer but each building will be classified according to whether it is dry, wet or flooded. |project_name| will typically apply its own symbology to the output impact layer to make it clear which are the impacted buildings. This is illustrated in the image below.
-
-It should also be noted that the impact layer will only include features / cells that occur within the analysis extent. All others will be ‘clipped away’. It is very important to remember this when interpreting the map legend and the impact summary (see section below) because they are only relevant to the analysis area. The impact layer is not saved by default. If you want to save this spatial data you need to do this yourself.
-
-
-.. image:: /images/1000020100000498000004CC90E5D7823F02EB7A.png
-
-**What is the impact summary?**
-
-Whereas the impact layer represents spatial data, the impact summary is tabular and textual data. The impact summary provides a table (or series of tables) and other textual information with the numbers of buildings, roads or people affected, and includes other useful information such as minimum needs breakdowns, action checklists and summaries. The impact summary presents the results of the impact function in an easy to digest form. Our expectation that the numbers show here would form part of the input to your emergency management planning process - typically as a launch point for discussion and planning on how to have sufficient resources in order to cater for the impacted people, buildings or roads should a similar event to the one on which the scenario is based occur. An example of an impact summary is shown below.
-
-
-.. figure:: /images/1000020100000568000003854B3E041BB1044C14.png
-
-   Example impact summary table showing breakdown of buildings flooded.
-
-**What are minimum needs?**
-
-Minimum needs are a population specific reporting component for the impact summary. They are based on generic or regional preferences and define the daily food and well-being requirements for each individual who may be displaced during a disaster. For example you could specify that each person should receive 20l of fresh drinking water per day, 50l of bathing water and so on. |project_name| will calculate these numbers to provide an estimate of the total needs for the displaced population.
-
-
-.. image:: /images/10000201000003AD000000CEA674FD7370360E6F.png
-
-**What are action checklists?**
-
-Action checklists are generated lists of things disaster managers should consider when implementing their disaster management plan. Currently the action checklists are fairly simplistic - they are intended to prompt discussion and stimulate disaster managers to think about the important contingencies they should have in place.
-
-
-.. image:: /images/10000201000002E0000001C2CEDFED88A69ED83E.png
-
-**Datasets**
-
+Datasets
+--------
 *Current content has InaSAFE specific datasets – need to update in consultation with Sachin & Lauren*
