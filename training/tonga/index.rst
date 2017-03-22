@@ -8,7 +8,7 @@ PacSAFE Training Workshop - Tonga
 This Training Manual has been prepared for the PacSAFE Training Workshop hosted by National Emergency Management Office, Tonga (April 2017). Material was prepared by |GA| and |SPC|, based on the InaSAFE training programs prepared by Kartoza. 
 
 .. toctree::
-   :maxdepth: 6
+   :maxdepth: 2
    :caption: Contents:
 
    objectives
