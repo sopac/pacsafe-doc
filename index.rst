@@ -26,7 +26,8 @@ The PacSAFE project is a response to demand from Pacific Island Countries for to
 .. * :ref:`search`
 
 
-
+.. image:: /images/impact_wizard.png                                                                                                                                                          
+   :align: center        
 
 
 
