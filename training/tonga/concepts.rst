@@ -34,6 +34,9 @@ Before we start, here are some definitions you may find useful. *Other definitio
 Source: 
 `http://www.unisdr.org/we/inform/terminology <http://www.unisdr.org/we/inform/terminology>`_
 
+A more complete list of terms is included in the glossary (*link required*).
+
+
 What is disaster management?
 ----------------------------
 

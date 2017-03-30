@@ -13,6 +13,7 @@ This Training Manual has been prepared for the PacSAFE Training Workshop hosted 
 
    objectives
    introduction
+   drm_concepts
    concepts
    pacsafe_intro
    exercises
