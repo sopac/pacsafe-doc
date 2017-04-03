@@ -1,7 +1,11 @@
 Course Objectives
 =================
 
-This |project_name| training workshop provides a first introduction to |project_name|, how it can be used in supporting disaster management in Tonga, and assess further needs for development, based on user requirements. By the end of the workshop, participants should be able to demonstrate the following skills and knowledge:
+This |project_name| training workshop provides a first introduction to
+|project_name|, how it can be used in supporting disaster management
+in Tonga, and assess further needs for development, based on user
+requirements. By the end of the workshop, participants should be able
+to demonstrate the following skills and knowledge:
 
 
 *   General
@@ -75,7 +79,7 @@ PacSAFE is based on QGIS and the InaSAFE plugin, and was originally developed by
 
 InaSAFE was originally developed by the Australian Government in partnership with The National Disaster Management Authority (BNPB) Indonesia, and the World Bank-(GFDRR).
 
-This PacSAFE training manual was developed by Geoscience Australia and |SPC|, based on the InaSAFE Socialisation Training Manual (`http://docs.inasafe.org/en/training/socialisation/ <http://docs.inasafe.org/en/training/socialisation/>`_) developed by Kartoza (`http://kartoza.com/ <http://kartoza.com/>`_).
+This PacSAFE training manual was developed by |GA| and |SPC|, based on the InaSAFE Socialisation Training Manual (`http://docs.inasafe.org/en/training/socialisation/ <http://docs.inasafe.org/en/training/socialisation/>`_) developed by Kartoza (`http://kartoza.com/ <http://kartoza.com/>`_).
 
 Licence
 -------

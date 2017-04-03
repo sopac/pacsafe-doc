@@ -6,7 +6,10 @@
 .. image:: /images/pacsafe.png
    :align: center
 
-Material for training workshops is maintained here.
+Material for training workshops is maintained here. Each training
+workshop is maintained under a separate subdirectory for
+completeness. Material may be copied between workshops, but then
+tailored for the audience.
 
 .. toctree::
     :maxdepth: 1

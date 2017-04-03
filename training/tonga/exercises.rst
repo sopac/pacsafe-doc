@@ -4,21 +4,47 @@ Exercises
 Getting PacSAFE
 ---------------
 
-PacSAFE can be downloaded from 
+PacSAFE can be downloaded from http://services.gsd.spc.int/pacsafe/
 
-For this workshop, we are providing the whole PacSAFE application via a USB key...
+For this workshop, we are providing the whole PacSAFE application via
+a USB key, along with the required datasets for the scenarios that
+will be explored.
 
 
 Installing PacSAFE
 ------------------
 
-Copy the contents of the USB to a location on your computer...
+Copy the contents of the USB to a location on your computer, extract
+the files and run the installer.
+
+Starting PacSAFE
+----------------
+
+Start |project_name| by double clicking the |project_name| icon on the desktop. 
+
+.. image:: /images/icon.ico
+   :align: center
+
+
+
+A splash screen will appear for a few seconds, then the main
+|project_name| interface will be displayed.
+
 
 Understanding the PacSAFE interface
 -----------------------------------
+
+|project_name| is based on the Geographic Information System (GIS)
+software package `QGIS <http://www.qgis.org>`_ and the `InaSAFE
+<http://inasafe.org>`_ plugin. The main |project_name| interface uses
+the QGIS interface, with a reduced number of toolbars to make the
+interface easier to navigate for non-specialists.
+
+
+
 There are four elements in the PacSAFE interface:
 
-.. image:: /images/pacsafe_interface.png
+.. image:: /images/pacsafe_interface_annotated.png
    :align: center
 
 
@@ -32,16 +58,11 @@ There are four elements in the PacSAFE interface:
 
 2. **Toolbar**: At the top of PacSAFE are a large number of tools,
    which are contained within various toolbars. For example, the File
-   toolbar allows you to save, load, print and start a new project. We
-   already used one of these tools when we opened this project. By
-   hovering your mouse over an icon, the name of the tool will appear
-   to help you identify each tool. The number of tools (buttons) can
-   seem a bit overwhelming at first, but you will gradually get to
-   know them. The tools are grouped into related functions on
-   toolbars. If you look closely you can see a vertical array of ten
-   dots to the left of each toolbar. By grabbing these with your
-   mouse, you can move the toolbar to a more convenient location, or
-   separate it so that it sits on its own.
+   toolbar allows you to save, load, print and start a new project,
+   under the :guilabel:`Project` and :guilabel:`Plugins` dropdown
+   menus. We already used one of these tools when we opened this
+   project. By hovering your mouse over an icon, the name of the tool
+   will appear to help you identify each tool.
 
 3. **Map canvas**: All of the map data that we load into PacSAFE will
    be displayed here, both vector data and raster data.
@@ -50,6 +71,7 @@ There are four elements in the PacSAFE interface:
    have a **PacSAFE dock** on the right hand side of the screen. It
    should look like this:
 
+*Screenshot of PacSAFE dock*
 
 
 
@@ -60,6 +82,8 @@ We’ve already taken a look at the QGIS toolbar and have seen the tools
 for opening QGIS. Here's a list of some of the most commonly used
 tools. Feel free to play around with them if you like. The important
 thing for now is to start getting familiar with QGIS.
+
+The |project_name| button gives you access to the pre-compiled projects delivered with |project_name|. 
 
 
 Navigating the map
@@ -73,7 +97,8 @@ QGIS by default.
 .. image:: /images/map_navigation.png
    :align: center
 
-When you click on one of these buttons, it changes the action of the mouse in the main map window.
+When you click on one of these buttons, it changes the action of the
+mouse in the main map window.
 
 * Select the first button that looks like a hand. Now hold the left
   mouse button down and drag the mouse in the map window. This allows
@@ -186,7 +211,8 @@ toolbar, you can right-click on the top toolbar and check **PacSAFE**.
 | .. image:: /static/training/socialisation/Intro_QGIS_42.*    | Add OpenStreetMap Tile Layer     |
 +--------------------------------------------------------------+----------------------------------+
 
-Later, we will explore and use these tools in **Run basic PacSAFE** and **Intermediate modules**.
+Later, we will explore and use these tools in **Run basic PacSAFE**
+and **Intermediate modules**.
 
 Summary
 -------
