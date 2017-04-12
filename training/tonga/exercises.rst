@@ -83,8 +83,17 @@ for opening QGIS. Here's a list of some of the most commonly used
 tools. Feel free to play around with them if you like. The important
 thing for now is to start getting familiar with QGIS.
 
-The |project_name| button gives you access to the pre-compiled projects delivered with |project_name|. 
+The |project_name| button gives you access to the pre-compiled
+projects delivered with |project_name|. Clicking on the |project_name|
+button will open a new window with a list of projects to select from.
 
+.. figure:: /images/001_project_selection.png
+   :align: center
+
+   Project selection window for PacSAFE.
+
+
+.. _navigate:
 
 Navigating the map
 ------------------
@@ -116,6 +125,7 @@ mouse in the main map window.
   project fit into the map canvas.
 
 
+.. _layers:
 
 Hide and move layers
 --------------------
@@ -141,6 +151,8 @@ layers in your Layers List are drawn on the map in a certain
 order. The layer at the bottom of the list is drawn first, and the
 layer at the top is drawn last. By changing the order of the layers in
 the list, you can change the order they are drawn in.
+
+.. _symbology:
 
 Symbolize a layer
 -----------------
@@ -186,6 +198,7 @@ symbolize the data so it will only shows the flooded area.
 5. Click OK
 
 
+.. _pacsafetoolbar:
 
 PacSAFE toolbar
 ---------------
