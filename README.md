@@ -9,6 +9,11 @@ Enhancing the ability of disaster managers in the Pacific region to prepare for 
 
 ### General guidelines:
 
+The intention is to maintain materials for individual workshops in separate sub-directories. This is because the PacSAFE training material is tailored to the country audience, because the scenarios packaged with the application are tailored to each country.
+
+Currently images are stored in a single folder at the top level. This presently is easiest to manage, but as additional workshops are compiled, it is likely we'll need to create a sub-directory structure similar to the source files. 
+
+
 
 ### To build the HTML pages locally:
 

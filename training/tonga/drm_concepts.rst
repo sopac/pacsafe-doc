@@ -36,7 +36,7 @@ Introduction to Disaster Management content:
 * Community based disaster management
 
 Components of impact and risk
-=============================
++++++++++++++++++++++++++++++
 
 Hazard
 ------
@@ -143,7 +143,7 @@ Risk is the likelihood that a loss will occur as a result of a hazard event, giv
 
 
 The disaster management cycle
------------------------------
+++++++++++++++++++++++++++++++
 
 *This cycle is commonly used in Australia to describe disaster management. How widespread is it in the Pacific? - CA*
 
