@@ -197,6 +197,7 @@ There are numerous ways to download OpenStreetMap roads data, but our recommende
 
 
 .. _buildings:
+
 Buildings (structure) data
 ..........................
 
@@ -220,6 +221,7 @@ Like roads, building footprints can be a useful dataset to have for understandin
 +------------+---------------------------------------------------------------------+
 
 .. _population:
+
 Population data
 ...............
 
@@ -488,7 +490,7 @@ Volcanic Ash Impact Functions
 Cyclone Impact Functions
 ........................
 
-**Cyclone hazard**: continuour raster
+**Cyclone hazard**: continuous raster
 
 **Building exposure**: classified polygon or point with a type attribute.
 

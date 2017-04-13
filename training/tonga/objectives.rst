@@ -8,7 +8,7 @@ requirements. By the end of the workshop, participants should be able
 to demonstrate the following skills and knowledge:
 
 
-*   wGeneral
+*   General
 
     *   Understand the conceptual space in which PacSAFE can be used
     *   Understand the concept of hazard data
