@@ -136,8 +136,10 @@ Risk is the likelihood that a loss will occur as a result of a hazard event, giv
 
 * Average annual loss - the average loss from disasters over a long period of time.
 * Average reccurence interval loss - the loss expected to occur, on average, every 10, 50 or 100 years (or some other frequency)
-* Loss-exceedance curves - 
+* Loss-exceedance curves - a graph of the loss from disasters compared to the chance of the disaster occuring.
 
+
+**Impacts are the outcomes of a single disaster event on the community. Risk describes the likelihood of different levels of impact due to different events.**
 
 
 The disaster management cycle
@@ -176,23 +178,3 @@ understanding of resources required to respond quickly and effectively
 to a disaster.
 
 
-
-
-What is impact?
----------------
-
-* Economic loss
-* Casualties
-* Damage to buildings, infrastructure, networks, etc.
-* Intangible impacts
-
-
-Impact versus risk
-------------------
-
-Impact: outcome of a single event
-
-Risk: Likelihood of different levels of impact due to different events
-
-Risk assessment
----------------
