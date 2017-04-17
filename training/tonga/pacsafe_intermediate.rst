@@ -9,7 +9,7 @@ Run intermediate |project_name|
 Introduction
 ------------
 
-In :ref:`pacsafe-basic`, we learned how to run a tsunami inundation
+In :ref:`basic-pacsafe`, we learned how to run a tsunami inundation
 analysis on population and buildings, adjust the tsunami impact
 default settings and analyze the impact summary report. We also
 learned how to save the analysis data and generate a PDF of the
@@ -234,7 +234,7 @@ After the keyword has been already set, we are ready to run
 |project_name| for building polygons and roads.
 
 Run |project_name| analysis for building points
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------------------------
 
 Let us run analysis for building polygons first. Make sure you set the
 |project_name| dock as pictured below:
