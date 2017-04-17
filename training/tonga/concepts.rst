@@ -1,12 +1,21 @@
+.. image:: /images/pacsafe.png
+
+.. _pacsafe_concepts:
+
 |project_name| concepts
 =======================
 
-In this section we explain the key concepts of |project_name| and explore the merits of disaster management planning.
+In this section we explain the key concepts of |project_name| and
+explore the merits of disaster management planning.
 
 How does |project_name| work?
 -----------------------------
 
-|project_name| combines one exposure layer (e.g. location of buildings) with one hazard scenario (e.g. the footprint of a tropical cyclone) and returns a spatial impact layer along with a statistical summary and action questions. |project_name| is framed around answering questions such as: "*In the event of a flood similar to the 2012 Nadi event, how many people might need evacuation?*"
+|project_name| combines one exposure layer (e.g. location of
+buildings) with one hazard scenario (e.g. the footprint of a tropical
+cyclone) and returns a spatial impact layer along with a statistical
+summary and action questions. |project_name| is framed around
+answering questions such as: "*In the event of a flood similar to the 2012 Nadi event, how many people might need evacuation?*"
 
 .. figure:: /images/001_inasafe_concept.png
 

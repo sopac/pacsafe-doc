@@ -1,7 +1,7 @@
 PacSAFE Training Workshop - Tonga
 =================================
 
-*Tonga, April, 2017*
+*Tonga, April 2017*
 
 .. image:: /images/pacsafe.png
 
@@ -17,7 +17,8 @@ This Training Manual has been prepared for the PacSAFE Training Workshop hosted 
    concepts
    pacsafe_intro
    exercises
-   pacsafe_running
+   pacsafe_basic
+   pacsafe_intermediate
 
 .. Indices and tables
 .. ==================

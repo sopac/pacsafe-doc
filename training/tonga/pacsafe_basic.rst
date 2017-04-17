@@ -1,5 +1,9 @@
-Running PacSAFE
-===============
+.. image:: /images/pacsafe.png
+
+.. _pacsafe-basic:
+
+Run basic PacSAFE
+=================
 
 Introduction
 ------------
@@ -15,15 +19,15 @@ how to change the inundation threshold and take a look at the default
 settings for minimum needs. We will also learn how to save our work.
 
 Learning objective
-------------------
+..................
 
 To develop the participant's basic understanding of the PacSAFE
 workflow and application of PacSAFE in the Disaster Management
 sector. By the end of this exercise, participants will:
 
 
-*   Be able to run a tsunami analysis using PacSAFE - on buildings;
-*   Be able to run a tsunami analysis using PacSAFE - on population;
+*   Be able to run a tsunami analysis using |project_name| - on buildings;
+*   Be able to run a tsunami analysis using |project_name| - on population;
 *   Understand the tsunami impact default settings;
 *   Understand the impact summary report;
 *   Be able to change the analysis threshold and run a new scenario;
@@ -37,6 +41,9 @@ Data for this exercise
 
 The data for this exercise are packaged in the PacSAFE
 application. There is no need to download data to run the exercises.
+
+Exercise
+--------
 
 Open |project_name| application
 ...............................
@@ -70,7 +77,7 @@ from.
 
 We will start by examining the scenario of a tsunami and it's impact
 on buildings in and around Nuku'alofa. Select the "Nukualofa tsunami
-buildings" project in the list, then click the "Load" button.
+buildings" project in the list, then click the :guilabel:`Load` button.
 
 The project will show several layers, including:
 
@@ -93,8 +100,8 @@ school.
 The contextual data should help you to find features of interest, such
 as your home, local school, or church.
 
-Run PacSAFE Analysis for Buildings
-++++++++++++++++++++++++++++++++++
+Run |project_name| analysis for buildings
+-----------------------------------------
 
 Take a look at the |project_name| dock on the right side of the
 screen. The |project_name| dock should show that you are ready to run
@@ -280,7 +287,7 @@ not overwrite the training project so you can do the exercise again later.
 
 
 Run PacSAFE Analysis for Population
-+++++++++++++++++++++++++++++++++++
+-----------------------------------
 
 Return to the |project_name| toolbar and click on the |project_name| button to open the project selection window. This time, select the "Nukualofa tsunami
 population" project in the list, then click the "Load" button.
