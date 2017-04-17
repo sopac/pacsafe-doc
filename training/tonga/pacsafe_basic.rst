@@ -52,7 +52,7 @@ Before running a |project_name| analysis, we must open a
 project. Start |project_name| by double clicking the |project_name|
 icon on the desktop.
 
-.. image:: /images/icon.ico
+.. image:: /images/icon.png
    :align: center
 
 
