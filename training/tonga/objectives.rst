@@ -1,7 +1,11 @@
 Course Objectives
 =================
 
-This |project_name| training workshop provides a first introduction to |project_name|, how it can be used in supporting disaster management in Tonga, and assess further needs for development, based on user requirements. By the end of the workshop, participants should be able to demonstrate the following skills and knowledge:
+This |project_name| training workshop provides a first introduction to
+|project_name|, how it can be used in supporting disaster management
+in Tonga, and assess further needs for development, based on user
+requirements. By the end of the workshop, participants should be able
+to demonstrate the following skills and knowledge:
 
 
 *   General
@@ -71,23 +75,37 @@ Prerequisites
 Credits
 -------
 
-PacSAFE is based on QGIS and the InaSAFE plugin, and was originally developed by SPC, funded by the Asian Development Bank as part of the project Strengthening Disaster and Climate Risk Resilience in Urban Development (TA-8238-REG).
+PacSAFE is based on QGIS and the InaSAFE plugin, and was originally
+developed by SPC, funded by the Asian Development Bank as part of the
+project Strengthening Disaster and Climate Risk Resilience in Urban
+Development (TA-8238-REG).
 
-InaSAFE was originally developed by the Australian Government in partnership with The National Disaster Management Authority (BNPB) Indonesia, and the World Bank-(GFDRR).
+InaSAFE was originally developed by the Australian Government in
+partnership with The National Disaster Management Authority (BNPB)
+Indonesia, and the World Bank-(GFDRR).
 
-This PacSAFE training manual was developed by Geoscience Australia and |SPC|, based on the InaSAFE Socialisation Training Manual (`http://docs.inasafe.org/en/training/socialisation/ <http://docs.inasafe.org/en/training/socialisation/>`_) developed by Kartoza (`http://kartoza.com/ <http://kartoza.com/>`_).
+This PacSAFE training manual was developed by |GA| and |SPC|, based on
+the InaSAFE Socialisation Training Manual
+(`http://docs.inasafe.org/en/training/socialisation/
+<http://docs.inasafe.org/en/training/socialisation/>`_) developed by
+Kartoza (`http://kartoza.com/ <http://kartoza.com/>`_).
 
 Licence
 -------
-This training manual is licenced under Creative Commons by Attribution by Kartoza/|SPC|/|GoA|/World Bank-|GFDRR|.
+
+This training manual is licenced under Creative Commons by Attribution
+by Kartoza/|SPC|/|GoA|/World Bank-|GFDRR|.
 
 Authors:
 ........
 
-`Sachindra Singh <sachindras@spc.int>`_, Senior Geospatial Systems Architect - SPC
+`Sachindra Singh <sachindras@spc.int>`_, Senior Geospatial Systems
+Architect - SPC
 
-`Craig Arthur <craig.arthur@ga.gov.au>`_, Pacific Activity Leader - Geoscience Australia
+`Craig Arthur <craig.arthur@ga.gov.au>`_, Pacific Activity Leader -
+Geoscience Australia
 
-`Lauren Power <lauren.power@ga.gov.au>`_, Senior Spatial Analyst - Geoscience Australia
+`Lauren Power <lauren.power@ga.gov.au>`_, Senior Spatial Analyst -
+Geoscience Australia
 
 

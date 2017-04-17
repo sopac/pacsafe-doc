@@ -1,12 +1,21 @@
+.. image:: /images/pacsafe.png
+
+.. _pacsafe_concepts:
+
 |project_name| concepts
 =======================
 
-In this section we explain the key concepts of |project_name| and explore the merits of disaster management planning.
+In this section we explain the key concepts of |project_name| and
+explore the merits of disaster management planning.
 
 How does |project_name| work?
 -----------------------------
 
-|project_name| combines one exposure layer (e.g. location of buildings) with one hazard scenario (e.g. the footprint of a tropical cyclone) and returns a spatial impact layer along with a statistical summary and action questions. |project_name| is framed around answering questions such as: "*In the event of a flood similar to the 2012 Nadi event, how many people might need evacuation?*"
+|project_name| combines one exposure layer (e.g. location of
+buildings) with one hazard scenario (e.g. the footprint of a tropical
+cyclone) and returns a spatial impact layer along with a statistical
+summary and action questions. |project_name| is framed around
+answering questions such as: "*In the event of a flood similar to the 2012 Nadi event, how many people might need evacuation?*"
 
 .. figure:: /images/001_inasafe_concept.png
 
@@ -33,6 +42,9 @@ Before we start, here are some definitions you may find useful. *Other definitio
 
 Source: 
 `http://www.unisdr.org/we/inform/terminology <http://www.unisdr.org/we/inform/terminology>`_
+
+A more complete list of terms is included in the glossary (*link required*).
+
 
 What is disaster management?
 ----------------------------
@@ -161,6 +173,7 @@ In the context of |project_name|, exposure refers to people, infrastructure or l
 *   landcover
 
 
+.. _roads:
 
 Roads data
 ..........
@@ -191,6 +204,9 @@ There are numerous ways to download OpenStreetMap roads data, but our recommende
 |            |                                                                     |
 +------------+---------------------------------------------------------------------+
 
+
+.. _buildings:
+
 Buildings (structure) data
 ..........................
 
@@ -212,6 +228,8 @@ Like roads, building footprints can be a useful dataset to have for understandin
 | **Source** | Can be obtained from community mapping or a national mapping agency |
 |            |                                                                     |
 +------------+---------------------------------------------------------------------+
+
+.. _population:
 
 Population data
 ...............
@@ -236,6 +254,8 @@ Population data can often be obtained from your census bureau or through various
 |                  |                                                            |
 +------------------+------------------------------------------------------------+
 
+.. _landcover:
+
 Landcover data
 ..............
 
@@ -258,19 +278,38 @@ Landcover data can often be obtained from national mapping agencies or through v
 |            |                                                       |
 +------------+-------------------------------------------------------+
 
+.. _aggregation:
+
 What is aggregation?
 --------------------
 
-Aggregation is the process whereby we group the results of the analysis by district so that you can see how many people, roads or buildings were affected in each area. This will help you to understand where the most critical needs are, and to generate reports as shown in the image below. Aggregation is optional in |project_name| - if you do not use aggregation, the entire analysis area will be used for the data summaries. Typically aggregation layers in |project_name| have as attributes the name of the district, village or reporting area. It is also possible to use extended attributes to indicate the ratio of men and women; youth, adults and elderly living in each area. Where these are provided and the exposure layer is population, |project_name| will provide a demographic breakdown per aggregation area indicating how many men, women etc. were probably affected in that area.
+Aggregation is the process whereby we group the results of the
+analysis by district so that you can see how many people, roads or
+buildings were affected in each area. This will help you to understand
+where the most critical needs are, and to generate reports as shown in
+the image below. Aggregation is optional in |project_name| - if you do
+not use aggregation, the entire analysis area will be used for the
+data summaries. Typically aggregation layers in |project_name| have as
+attributes the name of the district, village or reporting area. It is
+also possible to use extended attributes to indicate the ratio of men
+and women; youth, adults and elderly living in each area. Where these
+are provided and the exposure layer is population, |project_name| will
+provide a demographic breakdown per aggregation area indicating how
+many men, women etc. were probably affected in that area.
 
 .. figure:: /images/001_tonga_villages.png
 
-   Example of aggregation data for Tonga. In this case the aggregation areas are villages. Source: PCRAFI.
+   Example of aggregation data for Tonga. In this case the aggregation
+   areas are villages. Source: PCRAFI.
 
 What is contextual data?
 ------------------------
 
-Contextual data are data that provide a sense of place and scale when preparing or viewing the results of analysis, while not actually being used for the analysis. For example you may include online maps to show the underlying relief of the study area, or an aerial image to show what buildings and infrastructure exist in the area.
+Contextual data are data that provide a sense of place and scale when
+preparing or viewing the results of analysis, while not actually being
+used for the analysis. For example you may include online maps to show
+the underlying relief of the study area, or an aerial image to show
+what buildings and infrastructure exist in the area.
 
 .. figure:: /images/001_tonga_aerial.png
    
@@ -279,14 +318,28 @@ Contextual data are data that provide a sense of place and scale when preparing 
 What is the difference between raster and vector data?
 ------------------------------------------------------
 
-Vector data is arguably the most common kind of data you will find in the daily use of GIS. It describes geographic data in terms of points that may be connected into lines and polygons. Every object in a vector dataset is called a feature, and is associated with data that describes that feature. The basic shape of objects stored in the vector data is defined with a two-dimensional coordinate system / Cartesian (x, y).
+Vector data is arguably the most common kind of data you will find in
+the daily use of GIS. It describes geographic data in terms of points
+that may be connected into lines and polygons. Every object in a
+vector dataset is called a feature, and is associated with data that
+describes that feature. The basic shape of objects stored in the
+vector data is defined with a two-dimensional coordinate system /
+Cartesian (x, y).
 
 .. figure:: /images/001_vector_data.png
 
    Examples of vector data.
 
 
-Raster data is different from vector data. While vector data has discrete features constructed out of vertices, and perhaps connected with lines and/or areas; raster data, is like an image. Although it may portray various properties of objects in the real world, these objects don't exist as separate objects; rather, they are represented using pixels or cells of various different numerical values. These values can be real and represent different characteristics of the geography, such as water depth or amount of volcanic ash; or they can be a code than is related to the type of land use or the hazard class.
+Raster data is different from vector data. While vector data has
+discrete features constructed out of vertices, and perhaps connected
+with lines and/or areas; raster data, is like an image. Although it
+may portray various properties of objects in the real world, these
+objects don't exist as separate objects; rather, they are represented
+using pixels or cells of various different numerical values. These
+values can be real and represent different characteristics of the
+geography, such as water depth or amount of volcanic ash; or they can
+be a code than is related to the type of land use or the hazard class.
 
 .. figure:: /images/001_raster_data.png
 
@@ -294,12 +347,18 @@ Raster data is different from vector data. While vector data has discrete featur
 
 **Note: Creating vector data is like using a pen, where you can draw a point, a line or a polygon, Raster data is like taking a picture with a camera, where each square has one value, and all the squares (pixels) combine to make a picture.**
 
-Both vector and raster data can be used in |project_name|. For example, we use vector data for the extent of a flood hazard and as well as roads and building footprint; but we use raster data for modelled hazards such as flood depth, tsunami inundation and for population exposure.
+Both vector and raster data can be used in |project_name|. For
+example, we use vector data for the extent of a flood hazard and as
+well as roads and building footprint; but we use raster data for
+modelled hazards such as flood depth, tsunami inundation and for
+population exposure.
 
 What is the difference between continuous and classified data?
 --------------------------------------------------------------
 
-In |project_name| we differentiate between data which is continuous and data which is classified. The terms can be applied equally to both hazard and exposure data.
+In |project_name| we differentiate between data which is continuous
+and data which is classified. The terms can be applied equally to both
+hazard and exposure data.
 
 
 **Continuous** data represent a **continuously varying phenomenon** such as depth in meters, population counts and so on.
@@ -308,7 +367,13 @@ In |project_name| we differentiate between data which is continuous and data whi
 
    Example of continuous population data, displayed in GIS software. Source WorldPop.
 
-**Classified data** represent **named groups of values**, for example, high, medium and low hazard. Grouping values works well when you wish to reduce data preparation complexity or deal with local variances in the interpretation of data. For example, a flood depth of 50Â cm may represent a high hazard zone in an area where people commonly have basements in their houses, and a low hazard zone in areas where people commonly build their houses on raised platforms.
+**Classified data** represent **named groups of values**, for example,
+ high, medium and low hazard. Grouping values works well when you wish
+ to reduce data preparation complexity or deal with local variances in
+ the interpretation of data. For example, a flood depth of 50Â cm may
+ represent a high hazard zone in an area where people commonly have
+ basements in their houses, and a low hazard zone in areas where
+ people commonly build their houses on raised platforms.
 
 .. figure:: /images/001_classified_data.png
 
@@ -317,13 +382,23 @@ In |project_name| we differentiate between data which is continuous and data whi
 What is the analysis extent?
 ----------------------------
 
-In |project_name| you need to explicitly state what the intended analysis extent should be. In other words, you need to tell |project_name| where the analysis should be carried out. There is a tool in |project_name| that will allow you to drag a box around the intended analysis area - you should always check that you have done this before starting your analysis.
+In |project_name| you need to explicitly state what the intended
+analysis extent should be. In other words, you need to tell
+|project_name| where the analysis should be carried out. There is a
+tool in |project_name| that will allow you to drag a box around the
+intended analysis area - you should always check that you have done
+this before starting your analysis.
 
 .. figure:: /images/001_analysis_extent.png
 
    Example extent areas in |project_name|.
 
-|project_name| will show you what your current desired analysis extent is (blue box), what the extent of your last analysis was (red box in the image above) and what your effective extent is (green box in the image above). The effective extent may not correspond exactly to your desired analysis extent because |project_name| always aligns the extent to the edge of raster pixels.
+|project_name| will show you what your current desired analysis extent
+is (blue box), what the extent of your last analysis was (red box in
+the image above) and what your effective extent is (green box in the
+image above). The effective extent may not correspond exactly to your
+desired analysis extent because |project_name| always aligns the
+extent to the edge of raster pixels.
 
 What is an Impact Function?
 ---------------------------
@@ -334,14 +409,14 @@ What is an Impact Function?
 
 An Impact Function (often abbreviated to IF) is software code in
 |project_name| that implements a particular algorithm to determine the
-impact of a hazard on the selected exposure. Running an impact function
-is done when you have prepared all your input data, defined your analysis
-extent and wish to now see the impact outputs.
+impact of a hazard on the selected exposure. Running an impact
+function is done when you have prepared all your input data, defined
+your analysis extent and wish to now see the impact outputs.
 
 Again, we should emphasise here that Impact Functions **do not model hazards**
-- they **model the effects** of one or more hazard events on an exposure layer.
-|project_name| groups its impact functions according to the kind of hazard
-they work on:
+- they **model the effects** of one or more hazard events on an
+exposure layer.  |project_name| groups its impact functions according
+to the kind of hazard they work on:
 
 Supported data types for each hazard type in |project_name|
 -----------------------------------------------------------
@@ -424,7 +499,7 @@ Volcanic Ash Impact Functions
 Cyclone Impact Functions
 ........................
 
-**Cyclone hazard**: continuour raster
+**Cyclone hazard**: continuous raster
 
 **Building exposure**: classified polygon or point with a type attribute.
 
@@ -532,4 +607,5 @@ contingencies they should have in place.
 
 Datasets
 --------
+
 *Current content has InaSAFE specific datasets – need to update in consultation with Sachin & Lauren*
