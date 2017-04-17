@@ -2,9 +2,8 @@ Disaster Risk Management
 ========================
 
 
-Before we get into the details of installing and running
-|project_name|, we first will look at some core themes of disaster
-management planning.
+Before we get into the details of using |project_name|, we first will
+look at some core themes of disaster management planning.
 
 
 This module aims to provide participants with the following knowledge:
@@ -14,29 +13,11 @@ This module aims to provide participants with the following knowledge:
 * what are risk and impact assessments
 
 
-DRR Content:
-
-* Understanding risk, the causes and the risk management context
-  within your country
-* Risk Assessments, including processes of hazard assessment,
-  vulnerability assessment and risk analysis
-* Examples of risk reduction measures, incentives, regulations and
-  best practice for implementation
-* Implementation of risk reduction, including stakeholder analysis and
-  financing mechanisms
-* Application of these principles to different sectors
-
-Introduction to Disaster Management content:
-
-* Hazards, Exposure, Vulnerability and Risk
-* Principles of Emergency and Disaster Management
-* The Disaster Management Cycle
-* Development and disasters
-* National Disaster Management arrangements, plans and programmes
-* Community based disaster management
 
 Components of impact and risk
 +++++++++++++++++++++++++++++
+
+
 
 Hazard
 ------
@@ -81,22 +62,32 @@ The damage state of an asset (e.g. people, buildings) is a qualitative
 description of the level of damage suffered by a building (or
 components of a building). In some applications, the damage state is
 linked to a damage ratio, which quantifies the damage as a fraction of
-the complete replacement cost of the building.
+the complete replacement cost of the building. In this case, it is
+possible to determine the direct economic costs of a disaster, based
+on the accumulated damage.
 
-An example of damage states for reidential buildings:
+An example of damage states for residential buildings for tropical cyclone winds:
 
-+---------------+----------------------------------------+
-| Insignificant | No damage, minor non-structural damage |
-+---------------+----------------------------------------+
-| Light         | Non-structural damage only             |
-+---------------+----------------------------------------+
-| Moderate      | Reparable structural damage            |
-+---------------+----------------------------------------+
-| Severe        | Irreparable structural damage          |
-+---------------+----------------------------------------+
-| Complete      | Complete structural failure            |
-+---------------+----------------------------------------+
++---------------+-----------------------------------------------------------+
+| Insignificant | Little or no visible damage from the outside. No broken   |
+|               | windows, or failed roof deck. Minimal loss of roof cover, | 
+|               | with no or very limited water penetration.                |
++---------------+-----------------------------------------------------------+
+| Light         | Moderate roof cover that can be covered to prevent        |
+|               | additional water ingress. One window, door or garage      |
+|               | door broken.                                              |
++---------------+-----------------------------------------------------------+
+| Moderate      | Major roof damage, moderate window breakage. Minor roof   |
+|               | sheathing failure. Some water damage to interior.         |
++---------------+-----------------------------------------------------------+
+| Severe        | Major window damage or roof sheathing loss. Major roof    |
+|               | cover loss. Extensive damage to interior from water.      |
++---------------+-----------------------------------------------------------+
+| Complete      | Complete roof failure and/or failure of wall frame.       |
+|               | Loss of more than 50% of roof sheathing.                  |
++---------------+-----------------------------------------------------------+
 
+Damage state descriptions are routinely used in post-event damage surveys, to ascertain the impacts of disasters. 
 
 Exposure
 --------
@@ -104,16 +95,19 @@ Exposure
 Exposure refers to the assets, populations, and other elements that
 are part of the landscape and may be impacted by a hazard event. This
 can include things like buildings, people infrastructure and
-agriculture. For example:
+agriculture. For example exposure can refer to any or all of the following:
 
-* Buildings: houses, public/government, commercial, industrial, cultural/religious, health, education
-* People: number, demogaphics (age profile, gender, social disadvantage)
-* Infrastructure: power, telecommunications, water & sanitation, roads
-* Agriculture: (commercial) crops, 
+* Buildings: houses, public/government, commercial, industrial, cultural/religious, health, education, etc.
+* People: number, demographics (age profile, gender, social disadvantage)
+* Infrastructure: power, radio and telecommunications, water and sanitation, roads
+* Agriculture: (commercial) crops, subsistence crops, forests, etc.
 
 Often exposure is used to describe only those elements that are in the
 footprint of a hazard event. In some other contexts, exposure is used
 to refer to all elements in a community.
+
+Impact and risk
++++++++++++++++
 
 
 Impact
@@ -132,7 +126,13 @@ Impacts are the outcomes of a disaster on the community, it's people, buildings,
 Risk
 ----
 
-Risk is the likelihood that a loss will occur as a result of a hazard event, given the magnitude of hazard, exposed elements and the vulnerability of those elements. Usually, it is quantified in terms of economic losses, where we use a range of different measures to describe risk. It is intrinsically linked to the likelihood of a disaster event occuring, so often the reported levels of risk link a loss level to a probability. Measures of risk include:
+Risk is the likelihood that a loss will occur as a result of a hazard
+event, given the magnitude of hazard, exposed elements and the
+vulnerability of those elements. Usually, it is quantified in terms of
+economic losses, where we use a range of different measures to
+describe risk. It is intrinsically linked to the likelihood of a
+disaster event occuring, so often the reported levels of risk link a
+loss level to a probability. Measures of risk include:
 
 * Average annual loss - the average loss from disasters over a long period of time.
 * Average reccurence interval loss - the loss expected to occur, on average, every 10, 50 or 100 years (or some other frequency)
@@ -169,7 +169,9 @@ core elements in managing disasters.
 
 **Recovery** describes the restoration and improvement of the economic, physical, social, cultural and environmental assets, systems and activities of a community to avoid of reduce future disaster risk.
 
-Represented in a cycle, the recovery phase leads into prevention, where the goals are the same -- avoiding or reducing future disaster impacts. 
+Represented in a cycle, the recovery phase leads into prevention,
+where the goals are the same -- avoiding or reducing future disaster
+impacts.
 
 |project_name| can be used to inform the preparedness and response
 phases of the disaster management cycle, by enabling emergency
