@@ -57,6 +57,10 @@ Start |project_name| by double clicking the |project_name| icon on the desktop.
 A splash screen will appear for a few seconds, then the main
 |project_name| interface will be displayed.
 
+.. image:: /images/splash.png
+   :align: center
+
+
 Understanding the |project_name| interface
 ...........................................
 
@@ -65,7 +69,6 @@ software package `QGIS <http://www.qgis.org>`_ and the `InaSAFE
 <http://inasafe.org>`_ plugin. The main |project_name| interface uses
 the QGIS interface, with a reduced number of toolbars to make the
 interface easier to navigate for non-specialists.
-
 
 
 There are four elements in the PacSAFE interface:
@@ -118,6 +121,18 @@ button will open a new window with a list of projects to select from.
 
    Project selection window for PacSAFE.
 
+Select the "Nukualofa tsunami buildings" project in the list, then
+click the :guilabel:`Load` button.
+
+The project will show several layers in teh Layers panel, including:
+
+* Buildings: this is the exposure data. This will be used to assess
+  the tsunami impact on buildings.
+* Tsunami: this is the hazard data. It is used to determine the
+  inundation depth from a tsunami.
+* Imagery: this is contextual data, and is aerial imagery over
+  Nuku'alofa. This provides a sense of place and scale when viewing
+  the results of analysis. It is not used in the analysis.
 
 .. _navigate:
 
@@ -159,8 +174,7 @@ Hide and move layers
 Sometimes if you handle many layers, you need to hide/unhide layers to
 make the map canvas more organized. For example, open the pre-saved
 QGIS project, DKI_Jakarta_Introduction.qgs. Once all the data are
-displayed on your map canvas, try toggling the layer, **a flood
-similar to the 2007 Jakarta Event** by clicking on the checkbox in the
+displayed on your map canvas, try toggling the layer, **Tsunami from a Mw 9.0 earthquake** by clicking on the checkbox in the
 Layers Panel on the left side of your screen.
 
 
@@ -254,7 +268,7 @@ Later, we will explore and use these tools in **Run basic PacSAFE**
 and **Intermediate modules**.
 
 Summary
-.......
+-------
 
 In this exercise you have learned about QGIS, the free and open source
 software for processing spatial data. You have learned where to get

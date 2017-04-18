@@ -26,20 +26,20 @@ Tonga are posed by tropical cyclones and storm surge inundation. Other
 countries will face different challenges, and these challenges may
 evolve over time.
 
-.. figure:: /images/10000000000002A20000012DD9625173C0124347.png
+.. figure:: /images/001_tonga_aal.png
    :align: center
 
    Probabilistic risk results for Tonga. GFCF is Gross Fixed Capital
    Formation. Average Annual Loss is an indicator of the expected loss
    per year from hazards, averaged over many years. Source: GAR2015.
 
-.. figure:: /images/10000000000002AE00000156F2C6DD5A4FA21026.png
+.. figure:: /images/001_tonga_aal_hazard.png
    :align: center
 
    Contribution to average annual loss from different hazards in
    Tonga. Source: GAR2015.
 
-.. figure:: /images/10000000000002A7000001268F8C19B2DCDC3F44.png
+.. figure:: /images/001_tonga_pml.png
    :align: center
 
    Probable maximum loss for different hazards in Tonga. Source: GAR2015.

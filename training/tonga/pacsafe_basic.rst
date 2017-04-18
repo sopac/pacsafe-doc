@@ -79,7 +79,7 @@ We will start by examining the scenario of a tsunami and it's impact
 on buildings in and around Nuku'alofa. Select the "Nukualofa tsunami
 buildings" project in the list, then click the :guilabel:`Load` button.
 
-The project will show several layers, including:
+The project will show several layers in the Layers panel, including:
 
 * Buildings: this is the exposure data. This will be used to assess
   the tsunami impact on buildings.
