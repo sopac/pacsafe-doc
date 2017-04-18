@@ -4,7 +4,7 @@
 Workshop agenda
 ===============
 
-The |project_name| training workshop is facilitated by |GA| and |SPC|.
+The |project_name| training workshop is facilitated by |GA| and |SPC|. The first day of the workshop is formally arranged, while the later days are flexible to allow for the varying skill level of participants, and any issues that we might face in relation to installing the software.
 
 Day 1
 -----

@@ -10,7 +10,7 @@ to demonstrate the following skills and knowledge:
 
 *   General
 
-    *   Understand the conceptual space in which PacSAFE can be used
+    *   Understand the conceptual space in which |project_name| can be used
     *   Understand the concept of hazard data
     *   Understand the concept of exposure data
     *   Understand the concept of aggregation data
@@ -25,30 +25,30 @@ to demonstrate the following skills and knowledge:
     *   Be able to import an aggregation layer and assign it appropriate keywords
 
 
-*   Analysis – run basic PacSAFE
+*   Analysis – run basic |project_name|
 
-    *   Familiarise with the PacSAFE dock, toolbars and data packages/profiles
-    *   Be able to run a cyclone analysis on buildings using PacSAFE
+    *   Familiarise with the |project_name| dock, toolbars and data packages/profiles
+    *   Be able to run a cyclone analysis on buildings using |project_name|
     *   Be able to generate a PDF map from the results of an analysis
 
 
-*   Analysis – run intermediate PacSAFE
+*   Analysis – run intermediate |project_name|
 
-    *   Be able to define keywords using the PacSAFE keywords wizard
-    *   Be able to run PacSAFE with aggregation data
-    *   Be able to set the analysis area using the PacSAFE analysis area tool
+    *   Be able to define keywords using the |project_name| keywords wizard
+    *   Be able to run |project_name| with aggregation data
+    *   Be able to set the analysis area using the |project_name| analysis area tool
 
 
 *   Analysis – run other hazards
 
-    *   Be able to run PacSAFE with tsunami hazards
-    *   Be able to run PacSAFE with flood/inundation hazards over infrastructure/population
+    *   Be able to run |project_name| with tsunami hazards
+    *   Be able to run |project_name| with flood/inundation hazards over infrastructure/population
     *   Be able to read metadata and assign keywords to hazard data
 
 *   Practical application
 
-    *   Be able to explain the purpose of PacSAFE
-    *   Be able to interpret PacSAFE analysis results and use them in disaster management.
+    *   Be able to explain the purpose of |project_name|
+    *   Be able to interpret |project_name| analysis results and use them in disaster management.
     *   Configure, update and generate needs analysis for Tonga per hazard
 
 
@@ -66,7 +66,7 @@ Prerequisites
 *   Computer with:
 
     *   Minimum RAM of 2GB (recommended 4GB)
-    *   Windows (XP, 7, 8, 10), Linux (Training Ubuntu later than 12.04) or similar, MacOSX (Lion – 10.7, Snow Leopard – 10.6);
+    *   Windows (XP, 7, 8, 10), Linux (Training Ubuntu later than 12.04) or similar, MacOSX (Lion – 10.7, Snow Leopard – 10.6). The workshop materials have been developed using Windows 7;
 
 *   Basic skills in Geographic Information Systems (GIS) are an advantage, but not essential.
 
@@ -75,16 +75,16 @@ Prerequisites
 Credits
 -------
 
-PacSAFE is based on QGIS and the InaSAFE plugin, and was originally
+|project_name| is based on QGIS and the InaSAFE plugin, and was originally
 developed by SPC, funded by the Asian Development Bank as part of the
 project Strengthening Disaster and Climate Risk Resilience in Urban
 Development (TA-8238-REG).
 
 InaSAFE was originally developed by the Australian Government in
 partnership with The National Disaster Management Authority (BNPB)
-Indonesia, and the World Bank-(GFDRR).
+Indonesia, and the World Bank (GFDRR).
 
-This PacSAFE training manual was developed by |GA| and |SPC|, based on
+This |project_name| training manual was developed by |GA| and |SPC|, based on
 the InaSAFE Socialisation Training Manual
 (`http://docs.inasafe.org/en/training/socialisation/
 <http://docs.inasafe.org/en/training/socialisation/>`_) developed by

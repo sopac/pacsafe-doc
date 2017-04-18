@@ -17,7 +17,6 @@ This Training Manual has been prepared for the |project_name| Training Workshop 
    drm_concepts
    concepts
    pacsafe_intro
-   exercises
    pacsafe_basic
    pacsafe_intermediate
    run_other_hazards
