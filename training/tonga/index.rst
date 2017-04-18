@@ -12,6 +12,7 @@ This Training Manual has been prepared for the |project_name| Training Workshop 
    :caption: Contents:
 
    objectives
+   agenda
    introduction
    drm_concepts
    concepts
