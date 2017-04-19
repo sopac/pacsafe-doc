@@ -51,9 +51,32 @@ measure. The vulnerability of a community is influenced by the
 characteristics and circumstances that make it susceptible to the
 damaging effects of a disaster.
 
-* Measures of vulnerability
+Vulnerability is measured in a range of ways, depending on the element
+in question. It is always related to the intensity of the hazard (wind
+speed, ground shaking, etc.). For example, the vulnerability of a
+house can be measured by the cost of repairs required, compared to the
+incident wind speed. 
 
-**Vulnerability and fragility**: occasionally you may hear reference to the term *fragility* as well as vulnerability. *Vulnerability* is the expected level of damage that would be sustained if a given hazard magnitude affected an asset. The vulnerability of a community is based on the characteristics and circumstances that make it susceptible to the damaging effects of a hazard event. *Fragility* refers to the likelihood of a (qualitative) level of damage (e.g. no damage, slight, moderate, extensive or complete damage). This can be translated into a quantitative estimate of the damage (often referred to as a *damage index* or *damage ratio*).
+Social impacts are more difficult to quantify, because different
+communities may respond to a disaster in different ways. Poverty and
+inequality, marginalisation, social exclusion and discrimination by
+gender, social status, disability, pshcological factors and age
+(amongst other factors) are all factors that contribute to the
+vulnerability of a community. These factors impact the ability to
+respond to and recover from a disaster. Quantified measures of social
+vulnerability are limited, so it is more common to use qualitative
+descriptions.
+
+**Vulnerability and fragility**: occasionally you may hear reference
+ to the term *fragility* as well as vulnerability. *Vulnerability* is
+ the expected level of damage that would be sustained if a given
+ hazard magnitude affected an asset. The vulnerability of a community
+ is based on the characteristics and circumstances that make it
+ susceptible to the damaging effects of a hazard event. *Fragility*
+ refers to the likelihood of a (qualitative) level of damage (e.g. no
+ damage, slight, moderate, extensive or complete damage). This can be
+ translated into a quantitative estimate of the damage (often referred
+ to as a *damage index* or *damage ratio*).
 
 Damage states
 .............
@@ -66,7 +89,8 @@ the complete replacement cost of the building. In this case, it is
 possible to determine the direct economic costs of a disaster, based
 on the accumulated damage.
 
-An example of damage states for residential buildings for tropical cyclone winds:
+An example of damage states for residential buildings for tropical
+cyclone winds:
 
 +---------------+-----------------------------------------------------------+
 | Insignificant | Little or no visible damage from the outside. No broken   |
@@ -87,7 +111,8 @@ An example of damage states for residential buildings for tropical cyclone winds
 |               | Loss of more than 50% of roof sheathing.                  |
 +---------------+-----------------------------------------------------------+
 
-Damage state descriptions are routinely used in post-event damage surveys, to ascertain the impacts of disasters. 
+Damage state descriptions are routinely used in post-event damage
+surveys, to ascertain the impacts of disasters.
 
 Exposure
 --------
@@ -161,13 +186,21 @@ core elements in managing disasters.
    The disaster management cycle.
 
 
-**Prevention** is the activities and measures taken to avoid existing and new disaster risks.
+**Prevention** is the activities and measures taken to avoid existing
+and new disaster risks.
 
-**Preparedness** describes the knowledge and capacities of governements and communities to effectively anticipate, respond and recover from the impacts of an imminent disaster.
+**Preparedness** describes the knowledge and capacities of
+governements and communities to effectively anticipate, respond and
+recover from the impacts of an imminent disaster.
 
-**Response** is the actions taken directly before, during or immediately after a disaster to save lives, reduce health impacts and ensure public safety for the people affected by a disaster.
+**Response** is the actions taken directly before, during or
+immediately after a disaster to save lives, reduce health impacts and
+ensure public safety for the people affected by a disaster.
 
-**Recovery** describes the restoration and improvement of the economic, physical, social, cultural and environmental assets, systems and activities of a community to avoid of reduce future disaster risk.
+**Recovery** describes the restoration and improvement of the
+economic, physical, social, cultural and environmental assets,
+systems and activities of a community to avoid of reduce future
+disaster risk.
 
 Represented in a cycle, the recovery phase leads into prevention,
 where the goals are the same -- avoiding or reducing future disaster
@@ -175,8 +208,11 @@ impacts.
 
 |project_name| can be used to inform the preparedness and response
 phases of the disaster management cycle, by enabling emergency
-management officers to plan for scenarios and improve teh
+management officers to plan for scenarios and improve the
 understanding of resources required to respond quickly and effectively
 to a disaster.
 
 
+More information on disaster risk concepts is available on the
+`Understanding Disaster Risk <http://www.preventionweb.net/risk>`_
+site.

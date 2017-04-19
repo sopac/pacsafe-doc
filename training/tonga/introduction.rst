@@ -44,6 +44,14 @@ evolve over time.
 
    Probable maximum loss for different hazards in Tonga. Source: GAR2015.
 
+The probable maximum loss table indicates the expected level of loss
+for different return periods. On average, there will be a tropical
+cyclone event that results in a loss of around T$130 milion (US$71
+million) approximately every 20 years. To put that in context, losses
+associated with Cyclone Ian were estimated at close to T$90 million. 
+With improved planning and preparation, it will be possible to reduce
+these losses, which can only benefit the Tongan community.
+
 The |project_name| project aims to provide a tool that will enhance
 the ability of disaster managers to prepare for and respond to
 disasters, and to reduce the impacts of disasters on the local
@@ -73,3 +81,4 @@ effort to make such datasets available. We cannot emphasise enough the
 importance of government in taking a lead role in making their data
 freely available so that it can be used for the benefit of their
 citizens.
+
