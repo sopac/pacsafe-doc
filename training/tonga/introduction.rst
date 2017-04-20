@@ -26,23 +26,31 @@ Tonga are posed by tropical cyclones and storm surge inundation. Other
 countries will face different challenges, and these challenges may
 evolve over time.
 
-.. figure:: /images/10000000000002A20000012DD9625173C0124347.png
+.. figure:: /images/001_tonga_aal.png
    :align: center
 
    Probabilistic risk results for Tonga. GFCF is Gross Fixed Capital
    Formation. Average Annual Loss is an indicator of the expected loss
    per year from hazards, averaged over many years. Source: GAR2015.
 
-.. figure:: /images/10000000000002AE00000156F2C6DD5A4FA21026.png
+.. figure:: /images/001_tonga_aal_hazard.png
    :align: center
 
    Contribution to average annual loss from different hazards in
    Tonga. Source: GAR2015.
 
-.. figure:: /images/10000000000002A7000001268F8C19B2DCDC3F44.png
+.. figure:: /images/001_tonga_pml.png
    :align: center
 
    Probable maximum loss for different hazards in Tonga. Source: GAR2015.
+
+The probable maximum loss table indicates the expected level of loss
+for different return periods. On average, there will be a tropical
+cyclone event that results in a loss of around T$130 milion (US$71
+million) approximately every 20 years. To put that in context, losses
+associated with Cyclone Ian were estimated at close to T$90 million. 
+With improved planning and preparation, it will be possible to reduce
+these losses, which can only benefit the Tongan community.
 
 The |project_name| project aims to provide a tool that will enhance
 the ability of disaster managers to prepare for and respond to
@@ -73,3 +81,4 @@ effort to make such datasets available. We cannot emphasise enough the
 importance of government in taking a lead role in making their data
 freely available so that it can be used for the benefit of their
 citizens.
+

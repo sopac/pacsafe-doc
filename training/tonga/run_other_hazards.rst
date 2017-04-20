@@ -2,8 +2,8 @@
 
 .. _other_hazards:
 
-Other Hazards
-=============
+Running |project_name| with other hazards
+=========================================
 
 Introduction
 ------------
