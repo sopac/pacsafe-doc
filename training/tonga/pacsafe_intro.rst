@@ -4,14 +4,19 @@ Introduction to PacSAFE
 Introduction
 ------------
 
-This session will introduce the |project_name| application to participants. We will guide you through the process of installing |project_name|, walkyou through the main interface and demonstrate some basic operations you can perform in |project_name|.
+This session will introduce the |project_name| application to
+participants. We will guide you through the process of installing
+|project_name|, walk you through the main interface and demonstrate
+some basic operations you can perform in |project_name|.
 
  
 
 Learning objective
 ..................
 
-To introduce participants to the process of installing |project_name| and basic functionality and navigation in the application. By the end of this exercise, participnts will:
+To introduce participants to the process of installing |project_name|
+and basic functionality and navigation in the application. By the end
+of this exercise, participnts will:
 
 *   Understand how to install PacSAFE
 *   Explore the PacSAFE toolbar and functionality
@@ -22,7 +27,8 @@ To introduce participants to the process of installing |project_name| and basic 
 Data for this exercise
 ......................
 
-No data is needed for this exercise. THe facilitators will provide the |project_name| application.
+No data is needed for this exercise. The facilitators will provide the
+|project_name| application.
 
 
 Exercises
@@ -42,12 +48,13 @@ Installing PacSAFE
 ..................
 
 Copy the contents of the USB to a location on your computer, extract
-the files and run the installer.
+the files and run the installer. 
 
 Starting PacSAFE
 ................
 
-Start |project_name| by double clicking the |project_name| icon on the desktop. 
+Start |project_name| by double clicking the |project_name| icon on the
+desktop.
 
 .. image:: /images/icon.png
    :align: center
@@ -59,6 +66,8 @@ A splash screen will appear for a few seconds, then the main
 
 .. image:: /images/splash.png
    :align: center
+
+
 
 
 Understanding the |project_name| interface
