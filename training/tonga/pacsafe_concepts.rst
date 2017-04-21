@@ -184,6 +184,7 @@ based on conisderation of the climatic setting. Again, modelling
 techniques can enable us to determine what such a cyclone might look
 like, and what the likelihood of such a cyclone mught be.
 
+.. _single_vs_multiple:
 
 Single-event versus multiple-event hazards
 ------------------------------------------
@@ -435,6 +436,8 @@ example, we use vector data for the extent of a flood hazard and as
 well as roads and building footprint; but we use raster data for
 modelled hazards such as flood depth, tsunami inundation and for
 population exposure.
+
+.. _continuous_vs_classified:
 
 What is the difference between continuous and classified data?
 --------------------------------------------------------------
