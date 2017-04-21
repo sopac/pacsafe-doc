@@ -699,3 +699,13 @@ contingencies they should have in place.
 .. image:: /images/001_impact_summary_actions.png
    :align: center
    :width: 300 pt
+
+
+Summary
+-------
+
+In this session, we explored the concepts underpinning |project_name|,
+covering disaster management, what are the elements that contribute to
+impact assessment, and introduced common terms you will hear
+throughout the rest of the training workshop that are specific to the
+|project_name| application.
