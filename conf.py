@@ -110,7 +110,7 @@ html_favicon = "images/pacsafe_icon.ico"
 # documentation.
 #
 html_theme_options = {
-    'navigation_depth': 4,
+    'navigation_depth': 5,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,

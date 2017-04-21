@@ -1,9 +1,12 @@
+.. _objectives:
+
 Course Objectives
 =================
 
 This |project_name| training workshop provides a first introduction to
-|project_name|, how it can be used in supporting disaster management
-in Tonga, and assess further needs for development, based on user
+the |project_name| application, what |project_name| does (and does not
+do), how it can be used in supporting disaster management in Tonga,
+and assess further needs for development, based on user
 requirements. By the end of the workshop, participants should be able
 to demonstrate the following skills and knowledge:
 

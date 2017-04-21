@@ -18,8 +18,9 @@ summary and action questions. |project_name| is framed around
 answering questions such as: "*In the event of a flood similar to the 2012 Nadi event, how many people might need evacuation?*"
 
 .. figure:: /images/001_inasafe_concept.png
+   :align: center
 
-   |project_name| concepts. NEEDS TO BE UPDATED TO REFLECT PREPACKAGED DATA SUPPLY
+   |project_name| concepts.
 
 
 Definitions
@@ -49,29 +50,48 @@ A more complete list of terms is included in the glossary (*link required*).
 What is disaster management?
 ----------------------------
 
-In the context of disaster management, the expected 'normal' situation is that there is no disaster in progress and people are going about their normal daily lives. Disaster managers need to plan for the occasions when the 'normal' situation has been replaced by a disaster and people can no longer go about their normal daily lives. In order to prepare for such situations, disaster managers need to have a basic understanding of questions like:
+In the context of disaster management, the expected 'normal' situation
+is that there is no disaster in progress and people are going about
+their normal daily lives. Disaster managers need to plan for the
+occasions when the 'normal' situation has been replaced by a disaster
+and people can no longer go about their normal daily lives. In order
+to prepare for such situations, disaster managers need to have a basic
+understanding of questions like:
 
 *   how many people might be in the affected area?
 *   how might those people be impacted?
 
 
 
-For example are they likely to be injured, stranded, deceased, or unable to continue with their normal economic activities; have they lost access to food and water?
+For example are they likely to be injured, stranded, deceased, or
+unable to continue with their normal economic activities; have they
+lost access to food and water?
 
 *   how will roads in the affected area be impacted?
 *   how many dwellings in the affected will be affected? And to what degree?
 
 
 
-For example in a flood are buildings dry, wet (but still possibly habitable) or flooded (with occupants evacuated)?
+For example in a flood are buildings dry, wet (but still possibly
+habitable) or flooded (with occupants evacuated)?
 
 *   if people are affected, how many of them are likely to be women, children, pregnant, elderly etc.?
 
 
 
-Knowing the likely answers to these questions can be helpful to disaster managers. For example if you are aware of how many people live in flood prone areas you can estimate how many temporary shelters might be needed in the event of a disaster, how many provisions should be stockpiled in order to provide for the daily needs of affected people and so on. Having demographic breakdowns for the people likely to be affected, can help disaster managers include things like special dietary requirements for lactating women in their disaster management planning.
+Knowing the likely answers to these questions can be helpful to
+disaster managers. For example if you are aware of how many people
+live in flood prone areas you can estimate how many temporary shelters
+might be needed in the event of a disaster, how many provisions should
+be stockpiled in order to provide for the daily needs of affected
+people and so on. Having demographic breakdowns for the people likely
+to be affected, can help disaster managers include things like special
+dietary requirements for lactating women in their disaster management
+planning.
 
-This planning might also take into account expected impacts on infrastructure - for example by planning to have sufficient rescue boats should all the local roads be flooded.
+This planning might also take into account expected impacts on
+infrastructure - for example by planning to have sufficient rescue
+boats should all the local roads be flooded.
 
 What is a hazard?
 -----------------
@@ -79,7 +99,9 @@ What is a hazard?
 
 .. image:: /images/001_inasafe_hazard.png
 
-In the context of |project_name|, a hazard is any natural or human caused event or series of events that may negatively impact the population, infrastructure or resources in an area.
+In the context of |project_name|, a hazard is any natural or human
+caused event or series of events that may negatively impact the
+population, infrastructure or resources in an area.
 
 
 Some examples of natural hazards:
@@ -94,78 +116,105 @@ Some examples of natural hazards:
 Some examples of non-natural hazards:
 
 *   a chemical spill
-*   a nuclear plant failure
+*   a power plant failure
 *   an industrial fire / explosion
 
 
 
-It is important to note that |project_name| is not a hazard modelling tool. The hazard layers packaged with |project_name| are created elsewhere. In this training course we will focus on natural hazards, so we will take a moment here to explain how hazard datasets can be made.
+It is important to note that |project_name| is not a hazard modelling
+tool. The hazard layers packaged with |project_name| are created
+elsewhere. In this training course we will focus on natural hazards,
+so we will take a moment here to explain how hazard datasets can be
+made.
 
-There are three main ways that can be used to generate hazard datasets:
+There are two main ways that can be used to generate hazard datasets:
 
-*   local knowledge;
-*   modelling; and
-*   mapping
-
-
+*   local knowledge; and
+*   modelling; 
 
 
 Local knowledge
 ...............
 
-This is probably the most practical way to gather hazard data quickly. One approach that has been effective in Indonesia is to hold mapping workshops where village chiefs and local officials are invited. The officials are asked to indicate which villages and sub-villages within their area of responsibility flood regularly.
+This is probably the most practical way to gather hazard data
+quickly. One approach that has been effective in Indonesia is to hold
+mapping workshops where village chiefs and local officials are
+invited. The officials are asked to indicate which villages and
+sub-villages within their area of responsibility flood regularly.
 
-Instead of simply mapping which areas are flooded, it is also possible to take another approach and map each flood event, using the same boundaries (village). During the event community officials can use online systems to update the status of the flood waters in their area.
+Instead of simply mapping which areas are flooded, it is also possible
+to take another approach and map each flood event, using the same
+boundaries (village). During the event community officials can use
+online systems to update the status of the flood waters in their area.
 
-A key requirement for any local knowledge based process is that there are suitable mapping units available to use for deciding if an area is flood prone or not. In some cases participants may need to capture these, in other cases village or sub-village boundaries can be used. Using administrative boundaries may not always be ideal since the flood extents are unlikely to align well with the boundaries, but it may be sufficient for broad planning purposes; especially when response activities are managed at the same administrative level.
+A key requirement for any local knowledge based process is that there
+are suitable mapping units available to use for deciding if an area is
+flood prone or not. In some cases participants may need to capture
+these, in other cases village or sub-village boundaries can be
+used. Using administrative boundaries may not always be ideal since
+the flood extents are unlikely to align well with the boundaries, but
+it may be sufficient for broad planning purposes; especially when
+response activities are managed at the same administrative level.
 
 Modelling
 .........
 
-*To be updated with general hazard modelling concepts - CA*
+Modelling natural hazards is an entire discipline in its own right,
+and each of the hazards have vast research communities dedicated to
+modelling natural hazards.
 
-Modelling natural hazards is an entire discipline in its own right, and each of the hazards have vast research communities dedicated to modelling natural hazards. 
+Hazard modelling aims to use computer modelss to estimate the magnitude of
+hazard phenomena, using empirical, statistical or numerical
+representations of the physical characteristics of the hazard
+event. For example, to model a flood, we would combine factors such as
+precipitation, geology and runoff characteristics, terrain etc. to
+derive a model of impending or current flood.
 
-Hazard modelling aims to use computers to estimate the magnitude of hazard phenomena, using empirical, statistical or numerical representations of the physical characteristics of the hazard event. For example, to model a flood, we would combine factors such as precipitation, geology and runoff characteristics, terrain etc. to derive a model of impending or current flood. 
+Modelling can use data interpolation techniques - e.g. by taking flood
+depth readings manually or using telemetry from various sites around
+the flood prone area, flood depths can be interpolated to estimate the
+depth at places that were not sampled.
 
-Modelling can use data interpolation techniques - e.g. by taking flood depth readings manually or using telemetry from various sites around the flood prone area, flood depths can be interpolated to estimate the depth at places that were not sampled.
+One advantage of using a modelling approach is that it allows us to
+forecast less frequent events. For example, there may not be local
+knowledge about 1 in 50 or 100 year flood events and their impacts,
+but these can be estimated using modelling techniques. A community may
+not have experienced a category 5 cyclone, but it may be possible
+based on conisderation of the climatic setting. Again, modelling
+techniques can enable us to determine what such a cyclone might look
+like, and what the likelihood of such a cyclone mught be.
 
-Another modelling approach used by engineers is to install depth sensors upstream of the catchment and then try to model how much water is coming into the catchment area based on depth and flow rates. This has the potential advantage of giving early warning before floods enter the flood prone area, although it also has the disadvantage that localised rainfall may not be accurately considered in the model.
-
-Using a digital elevation model (DEM) and a stream network, it is also possible to generate a simple model of which areas might be inundated by a water rise in the river network of a certain amount. DEM cells adjacent to the stream network which are below the flood-rise threshold will be considered flooded and then those cell neighbours can in turn be considered so as to ensure that only contiguous areas in the DEM are flagged as inundated. There are various other approaches that can be used to model flood potential that involve using a DEM.
-
-One advantage of using a modelling approach is that it allows us to forecast less frequent events. For example, there may not be localised knowledge about 1 in 50 or 100 year flood events and their impacts, but these can be estimated using modelling techniques. A community may not have experienced a category 5 cyclone, but it may be possible based on conisderation of the climatic setting. Again, modelling techniques can enable us to determine what such a cyclone might look like, and what the likelihood of such a cyclone mught be.
 
 Single-event versus multiple-event hazards
 ------------------------------------------
 
-Hazard data used in |project_name| can represent either a single event or multiple events. Single event hazards are useful when you want to estimate scenarios like 'how many people would be affected if we had another flood like in 2013'. A single event hazard covers a short span of time - like a single flood or earthquake event. Single event data is also the most suitable to use for events which are stochastic e.g. earthquakes which seldom occur at the same place and with the same intensity more than once.
+Hazard data used in |project_name| can represent either a single event
+or multiple events. Single event hazards are useful when you want to
+estimate scenarios like 'how many people would be affected if we had
+another flood like in 2013'. A single event hazard covers a short span
+of time - like a single flood or earthquake event. Single event data
+is also the most suitable to use for events which are stochastic
+e.g. earthquakes which seldom occur at the same place and with the
+same intensity more than once.
 
-Multiple-event data are useful when you would like to plan for disasters that repeatedly affect the same area. For example over the course of 10 years, the same districts or sub-districts may get flooded, though not on every event. Flood and volcano eruptions may be good candidates for using multiple-event data in your disaster management planning.
+Multiple-event data are useful when you would like to plan for
+disasters that repeatedly affect the same area. For example over the
+course of 10 years, the same districts or sub-districts may get
+flooded, though not on every event. Flood and volcano eruptions may be
+good candidates for using multiple-event data in your disaster
+management planning.
 
-Requirements for using flood data in |project_name|
+A more complete description of the available hazard types can be found
+in the :ref:`functionality` section of the |project_name| User Guide.
 
-+--------------------------+---------------------------------------------------------------------+
-| **Key notes for floods** |                                                                     |
-|                          |                                                                     |
-+--------------------------+---------------------------------------------------------------------+
-| **Format**               | Vector polygon data or raster data                                  |
-|                          |                                                                     |
-+--------------------------+---------------------------------------------------------------------+
-| **Vector**               | A field representing whether the polygon is flood prone or not.     |
-|                          |                                                                     |
-+--------------------------+---------------------------------------------------------------------+
-| **Raster**               | A simple grid with cell values that represent water depth           |
-|                          |                                                                     |
-+--------------------------+---------------------------------------------------------------------+
-| **Source**               | Can be obtained from community mapping or a national mapping agency |
-|                          |                                                                     |
-+--------------------------+---------------------------------------------------------------------+
 
 What is exposure data?
 ----------------------
 
-In the context of |project_name|, exposure refers to people, infrastructure or land areas that may be affected by a disaster. Currently |project_name| supports four kinds of exposure data:
+In the context of |project_name|, exposure refers to people,
+infrastructure or land areas that may be affected by a
+disaster. Currently |project_name| supports four kinds of exposure
+data:
 
 *   roads
 *   buildings
@@ -179,13 +228,23 @@ Roads data
 ..........
 
 
-Road datasets are a useful data source when you want to understand the impact of a flood on roads infrastructure. With the |project_name| flood on roads impact functions; you can calculate which roads of which type might be impacted by a flood.
+Road datasets are a useful data source when you want to understand the
+impact of a flood on roads infrastructure. With the |project_name|
+flood on roads impact functions; you can calculate which roads of
+which type might be impacted by a flood.
 
-Very often there will be national datasets available for roads. In this case you should contact your national mapping agency for up-to-date datasets.
-The OpenStreetMap project is an excellent source of exposure data. The data is freely available, generally well maintained and a vital resource for disaster management planners.
+Very often there will be national datasets available for roads. In
+this case you should contact your national mapping agency for
+up-to-date datasets.  
 
-*TODO: Does PacSAFE include access to OSM download tool?*
-There are numerous ways to download OpenStreetMap roads data, but our recommended way is to download the data using the OSM download tool provided with |project_name|.
+The OpenStreetMap project is an excellent source of exposure data. The
+data is freely available, generally well maintained and a vital
+resource for disaster management planners.
+
+
+There are numerous ways to download OpenStreetMap roads data, but our
+recommended way is to download the data using the OSM download tool
+provided with |project_name|.
 
 +------------+---------------------------------------------------------------------+
 | ** **      | **Key notes for road data**                                         |
@@ -210,7 +269,13 @@ There are numerous ways to download OpenStreetMap roads data, but our recommende
 Buildings (structure) data
 ..........................
 
-Like roads, building footprints can be a useful dataset to have for understanding the impacts of a flood. For example you may wish to know 'how many buildings might be flooded, and what types of buildings are they?'. In |project_name| you do not need to use engineering quality data. We are more concerned with the numbers and types of structures affected by a disaster and do not work at engineering tolerances needed when, for example, planning a new water mains system.
+Like roads, building footprints can be a useful dataset to have for
+understanding the impacts of a flood. For example you may wish to know
+'how many buildings might be flooded, and what types of buildings are
+they?'. In |project_name| you do not need to use engineering quality
+data. We are more concerned with the numbers and types of structures
+affected by a disaster and do not work at engineering tolerances
+needed when, for example, planning a new water mains system.
 
 +------------+---------------------------------------------------------------------+
 | ** **      | **Key notes for buildings data**                                    |
@@ -235,7 +300,17 @@ Population data
 ...............
 
 
-Population data can often be obtained from your census bureau or through various online data sources. One problem with population data is that it is often quite coarse (represented using a raster with a large pixel size) and so analysis at large scales (e.g. a small neighbourhood) using population data may not always be the best idea. Currently |project_name| only supports raster based census data, but in the near future we will be releasing a version that supports assigning population estimates to buildings using census data. One of the best online resources for population data is ‘WorldPop’ - a project that aims to provide population data for anywhere in the globe produced in a standardised and rigorous way.
+Population data can often be obtained from your census bureau or
+through various online data sources. One problem with population data
+is that it is often quite coarse (represented using a raster with a
+large pixel size) and so analysis at large scales (e.g. a small
+neighbourhood) using population data may not always be the best
+idea. Currently |project_name| only supports raster based census data,
+but in the near future we will be releasing a version that supports
+assigning population estimates to buildings using census data. One of
+the best online resources for population data is ‘WorldPop’ - a
+project that aims to provide population data for anywhere in the globe
+produced in a standardised and rigorous way.
 
 +------------------+------------------------------------------------------------+
 |                  | **Key notes for population data**                          |
@@ -259,7 +334,10 @@ Population data can often be obtained from your census bureau or through various
 Landcover data
 ..............
 
-Landcover data can often be obtained from national mapping agencies or through various online data sources. Landcover data are useful if you want to assess the impact of a hazard event such as a volcanic eruption on crops.
+Landcover data can often be obtained from national mapping agencies or
+through various online data sources. Landcover data are useful if you
+want to assess the impact of a hazard event such as a volcanic
+eruption on crops.
 
 +------------+-------------------------------------------------------+
 | ** **      | **Key notes for landcover data**                      |
@@ -299,7 +377,7 @@ many men, women etc. were probably affected in that area.
 
 .. figure:: /images/001_tonga_villages.png
 
-   Example of aggregation data for Tonga. In this case the aggregation
+   Example of aggregation data for Tongatapu. In this case the aggregation
    areas are villages. Source: PCRAFI.
 
 What is contextual data?
@@ -327,6 +405,7 @@ vector data is defined with a two-dimensional coordinate system /
 Cartesian (x, y).
 
 .. figure:: /images/001_vector_data.png
+   :align: center 
 
    Examples of vector data.
 
@@ -342,10 +421,14 @@ geography, such as water depth or amount of volcanic ash; or they can
 be a code than is related to the type of land use or the hazard class.
 
 .. figure:: /images/001_raster_data.png
+   :align: center 
 
    Example of raster data.
 
-**Note: Creating vector data is like using a pen, where you can draw a point, a line or a polygon, Raster data is like taking a picture with a camera, where each square has one value, and all the squares (pixels) combine to make a picture.**
+.. note:: Creating vector data is like using a pen, where you can draw
+          a point, a line or a polygon, Raster data is like taking a
+          picture with a camera, where each square has one value, and
+          all the squares (pixels) combine to make a picture.
 
 Both vector and raster data can be used in |project_name|. For
 example, we use vector data for the extent of a flood hazard and as
@@ -361,19 +444,20 @@ and data which is classified. The terms can be applied equally to both
 hazard and exposure data.
 
 
-**Continuous** data represent a **continuously varying phenomenon** such as depth in meters, population counts and so on.
+**Continuous** data represent a **continuously varying phenomenon**
+ such as depth in meters, population counts and so on.
 
 .. figure:: /images/001_continuous_data.png
 
    Example of continuous population data, displayed in GIS software. Source WorldPop.
 
 **Classified data** represent **named groups of values**, for example,
- high, medium and low hazard. Grouping values works well when you wish
- to reduce data preparation complexity or deal with local variances in
- the interpretation of data. For example, a flood depth of 50Â cm may
- represent a high hazard zone in an area where people commonly have
- basements in their houses, and a low hazard zone in areas where
- people commonly build their houses on raised platforms.
+high, medium and low hazard. Grouping values works well when you wish
+to reduce data preparation complexity or deal with local variances in
+the interpretation of data. For example, a flood depth of 50Â cm may
+represent a high hazard zone in an area where people commonly have
+basements in their houses, and a low hazard zone in areas where
+people commonly build their houses on raised platforms.
 
 .. figure:: /images/001_classified_data.png
 
@@ -417,6 +501,18 @@ Again, we should emphasise here that Impact Functions **do not model hazards**
 - they **model the effects** of one or more hazard events on an
 exposure layer.  |project_name| groups its impact functions according
 to the kind of hazard they work on:
+
+The Impact Function Wizard will guide you through the process of
+setting up a |project_name| assessment. The starting point of the
+Wizard displays the available combinations of hazard and exposure
+layers for which there are Impact Functions.
+
+.. figure:: /images/impact_wizard.png
+   :align: center
+   
+   |project_name| Impact Function Wizard demonstrating possible
+   exposure and hazard combinations.
+
 
 Supported data types for each hazard type in |project_name|
 -----------------------------------------------------------
@@ -569,6 +665,7 @@ management planning process - typically as a launch point for discussion and
 planning on how to have sufficient resources in order to cater for the
 impacted people, buildings or roads should a similar event to the one on
 which the scenario is based occur.
+
 An example of an impact summary is shown below.
 
 .. image:: /images/001_impact_summary_buildings.png
@@ -602,10 +699,3 @@ contingencies they should have in place.
 .. image:: /images/001_impact_summary_actions.png
    :align: center
    :width: 300 pt
-
-
-
-Datasets
---------
-
-*Current content has InaSAFE specific datasets – need to update in consultation with Sachin & Lauren*

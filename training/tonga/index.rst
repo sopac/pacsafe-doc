@@ -1,3 +1,5 @@
+.. _tonga_training:
+
 PacSAFE Training Workshop - Tonga
 =================================
 
@@ -10,7 +12,8 @@ Workshop hosted by National Emergency Management Office, Tonga (April
 2017). Material was prepared by |GA| and |SPC|, based on the InaSAFE
 training programs prepared by Kartoza.
 
-**Preface**
+Preface
+-------
 
 As a highly hazard-prone country, Tonga faces significant risk of loss
 of lives and challenges to development progress as a result of natural
@@ -23,15 +26,18 @@ information as well as up-to-date, scale-appropriate exposure
 data. Such map-based risk assessments and contingency plans contribute
 to better disaster management planning and response.
 
+Contents
+--------
+
 .. toctree::
    :maxdepth: 1
-   :caption: Contents
+
 
    objectives
    agenda
    introduction
    drm_concepts
-   concepts
+   pacsafe_concepts
    pacsafe_intro
    pacsafe_basic
    pacsafe_intermediate

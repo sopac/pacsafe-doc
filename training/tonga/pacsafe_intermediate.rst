@@ -64,7 +64,7 @@ Define keyword for hazard data
 provide for analysis (hazard data, exposure data or aggregation data).
 If the data provided does not have a keyword, it will show a warning
 message “Layer Keyword Missing” in the |project_name| dock. Try
-selecting :guilabel:`A cetegory 3 cyclone in Tongatapu` layer and look
+selecting :guilabel:`A category 3 cyclone in Tongatapu` layer and look
 at the |project_name| dock, You will see the following:
 
 .. image:: /static/training/socialisation/intermediate_inasafe_03.*
@@ -146,26 +146,14 @@ administrative data with specific boundaries that we can use to
 aggregate results.
 
 To do this, look at the Layer List and make sure to turn ON the
-**Tonga districts** layer. Next, take a look at the |project_name|
-dock under the heading *Aggregate results by*.
+**Tonga villages** layer. Next, take a look at the |project_name|
+dock under the heading **Summarise the results by**.
 
-.. image:: /static/training/socialisation/intermediate_inasafe_08.*
-   :align: center
-   :width: 300 pt
-
-Why are we not able to see the **Tonga Districts** layer that we just
-turned ON before? Check the layer by selecting it on the Layer
-List. Did you see the keyword? The reason why this layer did not
-appear in the |project_name| Dock is because it did not have keyword
-data defined. Go ahead and add a keyword for **Tonga Districts** using
-the :guilabel:`Keyword Creation Wizard`. For your reference, refer to
-the keyword diagram as explained above.
-
-Now you will able to select **Tonga Districts** under 'Aggregate
+Now you will able to select **Tonga villages** under 'Summarise the
 results by' in the |project_name| Dock. The |project_name| Dock should
 look like this:
 
-.. image:: /static/training/socialisation/intermediate_inasafe_09.*
+.. image:: /images/001_intermediate_pacsafe_09.png
    :align: center
    :width: 300 pt
 
@@ -177,7 +165,7 @@ will see the detailed result. As explained before, using aggregation
 will let you get detailed information for a specific area or
 administration region.
 
-.. image:: /static/training/socialisation/intermediate_inasafe_10.*
+.. image:: /images/001_intermediate_pacsafe_10.png
    :align: center
    :width: 300 pt
 
@@ -200,7 +188,7 @@ define your own analysis area.
 2. Select :guilabel:`Use intersection of hazard, exposure and this bounding box`.
 
 3. Click :guilabel:`Drag on Map` to draw the bounding box around
-   building polygons and roads.
+   building points and roads.
 
 4. Click :guilabel:`OK`
 
@@ -208,7 +196,7 @@ define your own analysis area.
           so that you can drag a rectangle on the map. After you have finished
 	  dragging the rectangle, the window will reappear.
 
-.. image:: /static/training/socialisation/intermediate_inasafe_12.*
+.. image:: /images/001_intermediate_pacsafe_12.png
    :align: center
    :width: 300 pt
 

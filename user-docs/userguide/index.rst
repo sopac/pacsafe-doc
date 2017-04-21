@@ -8,6 +8,8 @@ Place holder for the PacSAFE User Guide
 .. toctree::
     :maxdepth: 5
 
+    functionality
+
 .. Indices and tables
 .. ==================
 
