@@ -62,16 +62,16 @@ Define keyword for hazard data
 
 |project_name| need a keyword to determine what type of data the user
 provide for analysis (hazard data, exposure data or aggregation data).
-If the data provided does not have a keyword, it will show a warning
-message “Layer Keyword Missing” in the |project_name| dock. Try
+If the data provided does not have keywords set, it will show a warning
+message "Layer Keyword Missing" in the |project_name| dock. Try
 selecting :guilabel:`A category 3 cyclone in Tongatapu` layer and look
 at the |project_name| dock, You will see the following:
 
-.. image:: /static/training/socialisation/intermediate_inasafe_03.*
+.. image:: /images/001_intermediate_pacsafe_03.*
    :align: center
    :width: 300 pt
 
-As you can see from the picture above, this layer keywords are missing
+As you can see from the picture above, this layer's keywords are missing
 and we need to open the keyword wizard to solve this problem. The
 keywords wizard will take you through a step-by-step process of
 assigning keywords to your data.
@@ -105,7 +105,7 @@ to define the population ratio. Finally, you will need to enter the
 source of data and the name of your layer to be displayed in the
 |project_name| dock.
 
-.. image:: /static/training/socialisation/intermediate_inasafe_04.*
+.. image:: /images/001_intermediate_inasafe_04.*
    :align: center
    :width: 300 pt
 

@@ -42,6 +42,7 @@ to better disaster management planning and response.
    pacsafe_basic
    pacsafe_intermediate
    run_other_hazards
+   datasets
 
 .. Indices and tables
 .. ==================
