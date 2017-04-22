@@ -414,7 +414,7 @@ list of hazards. Again, click :guilabel:`Next` to confirm the selection.
    :align: center
 
 The "Tsunami" layer represents the inundation from a single tsunami
-event (see the :ref:`|project_name| concepts <_single_vs_multiple>`
+event (see the :ref:`|project_name| concepts <single_vs_multiple>`
 section), so we select the "Single event" option to describe the
 **hazard scenario**. Click :guilabel:`Next` to confirm.
 
@@ -422,27 +422,89 @@ section), so we select the "Single event" option to describe the
    :align: center
 
 The next screen asks you to select whether the data is
-:ref:`continuous or classified <_continuous_vs_classified>`. The data
+:ref:`continuous or classified <continuous_vs_classified>`. The data
 here represent a continuous layer, so again we click :guilabel:`Next`
 to confirm and move to the next screen.
 
 .. image:: /images/001_basic_pacsafe_keywords_004.png
    :align: center
 
-Now we confirm the units of the tsunami hazard layer. Different hazard layers will have different units options. In the case of tsunami, there are only two options: **feet** and **metres**. Our hazard data is in units of metres.  
+Now we confirm the units of the tsunami hazard layer. Different hazard layers will have different units options. In the case of tsunami, there are only two options: **feet** and **metres**. Our hazard data is in units of metres, which is already selected. Click :guilabel:`Next` to confirm and move to the next step.
+
+.. image:: /images/001_basic_pacsafe_keywords_005.png
+   :align: center
+
+We have now reached the step where we select the classifications for our hazard data. |project_name| allows you to set different classifications for different exposure types - land cover, population, roads and buildings. In this project, we are analysing the impacts of tsunami on buildings, so we want to edit the **Tsunami on Structures Classification**. 
+
+.. image:: /images/001_basic_pacsafe_keywords_006.png
+   :align: center
+
+Here, you can see that the **Tsunami on Structures Classification** is set to "Tsunami classes", and the :guilabel:`Edit` button is active. On teh right, you can see that under the **Tsunami on Structures Classification** there are some values set in the table. Now click the :guilabel:`Edit` button.
+
+.. image:: /images/001_basic_pacsafe_keywords_007.png
+   :align: center
+
+You can now change the values against each class of hazard zone. 
+
+Remember back to the Impact Summary report, where those structures in
+a **Low Hazard Zone** were considered unaffected. If, as a disaster
+manager, you want to change the threshold of affected buildings to 50
+cm, then you would change the :guilabel:`Max` value for the **Low
+hazard zone** to a value of :samp:`0.50`. This will automatically
+change the :guilabel:`Min` threshold for the **Medium hazard zone** to
+:samp:`0.50`.
+
+.. image:: /images/001_basic_pacsafe_keywords_008.png
+   :align: center
+
+Click the :guilabel:`Save` button to save the new values. Now click
+:guilabel:`Next` to confirm the changes and move to the next step of
+the **Keyword Creation Wizard**.
+
+On this screen, you can make notes on the source of the data. For now,
+we will leave these as they are set. Click :guilabel:`Next`, where we
+can set a title for the layer. Again, we will leave this
+unchanged. Click :guilabel:`Next` one more time.
+
+.. image:: /images/001_basic_pacsafe_keywords_009.png
+   :align: center
+
+On this last screen, you can review the keywords and classifications
+that you have set. Check to make sure the classification for **Low
+hazard zone** has a maximum value of :samp:`0.5`.
+
+If you want to make further changes, simply click the :guilabel:`Back`
+button until you reach the screen you want to change. Otherwise, click
+:guilabel:`Finish`. We are now ready to run the analysis again, with
+the new threshold of 0.5 m.
+
+Make sure the **Tsunami from Mw9.0 earthquake** layer is selected in
+the Layers panel, then the |project_name| dock should show you are
+ready to run an analysis. Click the :guilabel:`Run` button to start
+the analysis.
+
+A new impact layer will be added to the Layers panel, which contains
+the results of the new analysis.
+
+Look at the Impact Summary report, and compare it to the previous
+Summary report you produced. Have the number of buildings changed in
+the "Affected" and "Not affected" columns? What might this mean for
+response actions?
+
+
 
 Summary
 -------
 
-In this exercise you have learned how to run a basic |project_name| analysis
-using an existing |project_name| project file and what the minimums component that
-must be there to run |project_name| properly are. Those components are hazard and
-exposure data. In this exercise, you have run an |project_name| impact
-assessment for a tsunami scenario in Nuku'alofa using two types of exposure
-data. The hazard data you used was a modelled tsunami raster and the
-exposure data were buildings and population. These analyses produced
-impact layers and impact summaries for affected buildings and impacted
-people.
+In this exercise you have learned how to run a basic |project_name|
+analysis using an existing |project_name| project file and what the
+minimums component that must be there to run |project_name| properly
+are. Those components are hazard and exposure data. In this exercise,
+you have run an |project_name| impact assessment for a tsunami
+scenario in Nuku'alofa using two types of exposure data. The hazard
+data you used was a modelled tsunami raster and the exposure data were
+buildings and population. These analyses produced impact layers and
+impact summaries for affected buildings and impacted people.
 
 You have also learned how to modify the analysis options through the
 Impact Function configuration, how to print |project_name| results in PDF
