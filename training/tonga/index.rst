@@ -44,6 +44,10 @@ to better disaster management planning and response.
    run_other_hazards
    datasets
 
+
+.. image:: /images/tonga-nemo.jpg
+   :align: center
+
 .. Indices and tables
 .. ==================
 

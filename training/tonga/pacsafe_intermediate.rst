@@ -64,10 +64,10 @@ Define keyword for hazard data
 provide for analysis (hazard data, exposure data or aggregation data).
 If the data provided does not have keywords set, it will show a warning
 message "Layer Keyword Missing" in the |project_name| dock. Try
-selecting :guilabel:`A category 3 cyclone in Tongatapu` layer and look
+selecting :guilabel:`A category 5 cyclone in Tongatapu` layer and look
 at the |project_name| dock, You will see the following:
 
-.. image:: /images/001_intermediate_pacsafe_03.*
+.. image:: /images/001_intermediate_pacsafe_03.png
    :align: center
    :width: 300 pt
 
@@ -77,8 +77,8 @@ keywords wizard will take you through a step-by-step process of
 assigning keywords to your data.
 
 
-Select **A category 3 cyclone in Tongatapu** layer and click
-:guilabel:`Keyword Creation Wizard`. A window will appear and follow
+Select **A category 5 cyclone in Tongatapu** layer and click
+:guilabel:`Keyword Creation Wizard` button. A window will appear and follow
 the steps provided by the :guilabel:`Keyword Creation Wizard`. If you
 get stuck, you can follow the diagram below to understand the steps
 and the choices you will be offered.
@@ -105,11 +105,11 @@ to define the population ratio. Finally, you will need to enter the
 source of data and the name of your layer to be displayed in the
 |project_name| dock.
 
-.. image:: /images/001_intermediate_inasafe_04.*
+.. image:: /images/001_intermediate_pacsafe_04.png
    :align: center
    :width: 300 pt
 
-.. image:: /static/training/socialisation/intermediate_inasafe_05.*
+.. image:: /images/001_intermediate_pacsafe_05.png
    :align: center
    :width: 300 pt
 
@@ -118,19 +118,20 @@ After you set the keyword using the Keyword Wizard, you can see in the
 set.  Verify that it looks like the image below? If it does not, you
 should go back and try to define the keyword again.
 
-.. image:: /static/training/socialisation/intermediate_inasafe_06.*
+.. image:: /images/001_intermediate_pacsafe_06.png
    :align: center
    :width: 300 pt
 
 After you set the keyword to match the image above, the hazard data will
 appear in the hazard panel of the |project_name| Dock.
 
-.. image:: /static/training/socialisation/intermediate_inasafe_07.*
+.. image:: /images/001_intermediate_pacsafe_07.png
    :align: center
    :width: 300 pt
 
 Now all the keyword data has been set and we can move into the next
-section to run |project_name| with population data.
+section to run a |project_name| analysis for tropical cyclone with
+building data.
 
 Run |project_name| for buildings with aggregation
 -------------------------------------------------
@@ -227,7 +228,7 @@ Run |project_name| analysis for building points
 Let us run analysis for building polygons first. Make sure you set the
 |project_name| dock as pictured below:
 
-.. image:: /static/training/socialisation/intermediate_inasafe_14.*
+.. image:: /images/001_intermediate_pacsafe_09.png
    :align: center
    :width: 300 pt
 
@@ -236,7 +237,7 @@ with data aggregated by Tonga village boundaries. Click
 :guilabel:`Run` to begin |project_name| analysis. After running, you
 will find the impact result layer in Layer List.
 
-.. image:: /static/training/socialisation/intermediate_inasafe_15.*
+.. image:: /images/001_intermediate_pacsafe_10.png
    :align: center
    :width: 300 pt
 
