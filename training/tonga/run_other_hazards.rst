@@ -16,10 +16,10 @@ also learned about using tools in |project_name| such as define
 keywords, configure minimum needs and area analysis, using aggregation
 as well as many others.
 
-In previous exercises, we used the "flooding in Jakarta" scenario and
+In previous exercises, we used the "tsunami in Nuku'alofa" scenario and
 related data to learn |project_name| functionality.  In addition to
-floods, |project_name| impact analyses can be run for many hazard
-types including earthquakes, tsunamis and volcanos. In this exercise,
+tsunami, |project_name| impact analyses can be run for many hazard
+types including earthquakes, cyclones and volcanos. In this exercise,
 we will explore and learn to run other hazard scenarios in
 |project_name| using |project_name| dock and |project_name| Function
 Centric Wizard.  Last but not least, we will also use the Generic
@@ -32,8 +32,8 @@ To improve the participant's understanding of how to use
 |project_name| to run impact analyses for hazards other than floods.
 By the end of this exercise, participants will be able to:
 
-- Run |project_name| with other hazards such as Earthquakes, Tsunamis
-  and Volcanos;
+- Run |project_name| with other hazards such as Earthquakes, Tropical
+  Cyclones and Volcanos;
 
 - Be able to read metadata and assign keywords to hazard data;
 

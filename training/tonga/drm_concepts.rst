@@ -15,12 +15,12 @@ This module aims to provide participants with the following knowledge:
 
 
 Components of impact and risk
-+++++++++++++++++++++++++++++
+-----------------------------
 
 
 
 Hazard
-------
+^^^^^^
 
 A hazard is considered any natural or human caused event or series of events that may negatively impact the population, infrastructure or resources in a community.
 
@@ -42,7 +42,7 @@ Some examples of non-natural hazards:
 
 
 Vulnerability
--------------
+^^^^^^^^^^^^^
 
 Vulnerability is a measure of susceptibility to the impacts of a
 disaster event. This can take the form of structural vulnerability for
@@ -68,15 +68,15 @@ vulnerability are limited, so it is more common to use qualitative
 descriptions.
 
 **Vulnerability and fragility**: occasionally you may hear reference
- to the term *fragility* as well as vulnerability. *Vulnerability* is
- the expected level of damage that would be sustained if a given
- hazard magnitude affected an asset. The vulnerability of a community
- is based on the characteristics and circumstances that make it
- susceptible to the damaging effects of a hazard event. *Fragility*
- refers to the likelihood of a (qualitative) level of damage (e.g. no
- damage, slight, moderate, extensive or complete damage). This can be
- translated into a quantitative estimate of the damage (often referred
- to as a *damage index* or *damage ratio*).
+to the term *fragility* as well as vulnerability. *Vulnerability* is
+the expected level of damage that would be sustained if a given
+hazard magnitude affected an asset. The vulnerability of a community
+is based on the characteristics and circumstances that make it
+susceptible to the damaging effects of a hazard event. *Fragility*
+refers to the likelihood of a (qualitative) level of damage (e.g. no
+damage, slight, moderate, extensive or complete damage). This can be
+translated into a quantitative estimate of the damage (often referred
+to as a *damage index* or *damage ratio*).
 
 Damage states
 .............
@@ -115,7 +115,7 @@ Damage state descriptions are routinely used in post-event damage
 surveys, to ascertain the impacts of disasters.
 
 Exposure
---------
+^^^^^^^^
 
 Exposure refers to the assets, populations, and other elements that
 are part of the landscape and may be impacted by a hazard event. This
@@ -131,14 +131,31 @@ Often exposure is used to describe only those elements that are in the
 footprint of a hazard event. In some other contexts, exposure is used
 to refer to all elements in a community.
 
+Common sources of exposure information are government agencies
+(e.g. building approvals, infrastructure owners/operators), surveys
+(including censuses) and aerial photos. Crowd-sourcing, through
+platforms like `OpenStreetMap <http://www.openstreetmap.org>`_ has
+been used to great effect in Indonesia for collecting local level
+data, as well as validating larger-scale data. 
+
+A key issue is open access to up-to-date, well-maintained geospatial
+exposure data. Without roads, buildings and population data, a tool
+like |project_name| would be impossible to use. It is critical for
+government to take a leading role in making data freely available so
+it can be used for the benefit of their citizens.
+
+
 Impact and risk
-+++++++++++++++
+---------------
 
 
 Impact
-------
+^^^^^^
 
-Impacts are the outcomes of a disaster on the community, it's people, buildings, landscape and other assets. They can be defined in qualitative terms, or quantitatively measured. Some indicators of impacts include:
+Impacts are the outcomes of a disaster on the community, it's people,
+buildings, landscape and other assets. They can be defined in
+qualitative terms, or quantitatively measured. Some indicators of
+impacts include:
 
 * Economic loss
 * Casualties, including physical injuries, deaths, mental breakdown
@@ -149,7 +166,7 @@ Impacts are the outcomes of a disaster on the community, it's people, buildings,
 
 
 Risk
-----
+^^^^
 
 Risk is the likelihood that a loss will occur as a result of a hazard
 event, given the magnitude of hazard, exposed elements and the
@@ -164,16 +181,34 @@ loss level to a probability. Measures of risk include:
 * Loss-exceedance curves - a graph of the loss from disasters compared to the chance of the disaster occuring.
 
 
-**Impacts are the outcomes of a single disaster event on the community. Risk describes the likelihood of different levels of impact due to different events.**
+.. note:: Impacts are the outcomes of a single disaster event on the
+          community. Risk describes the likelihood of different levels
+          of impact due to different events.
+
+Impact and Risk Assessment
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Impact and risk assessments are conducted to analyse the consequences
+of one (impact) or many (risk) hazard events, with the goal of
+informing decisions on prevention, mitigation and response
+activities. It is an integral part of decision and policy-making
+processes, and requires close collaboration among various parts of
+society to fully understand the impacts and risks (`UNDP
+<http://www.undp.org/content/dam/undp/library/crisis%20prevention/disaster/2Disaster%20Risk%20Reduction%20-%20Risk%20Assessment.pdf>`_).
+
+The analysis of impacts, through the use of tools like |project_name|,
+is only one step in a comprehensive risk assessment process. A
+complete assessment includes hazard assessments, vulneraility
+analsyes, risk profiling and formulation of disaster risk reduction
+strategies and plans. The reports created through |project_name| can
+be used in formulating strategies and action plans.
 
 
 The disaster management cycle
-++++++++++++++++++++++++++++++
-
-*This cycle is commonly used in Australia to describe disaster management. How widespread is it in the Pacific? - CA*
+-----------------------------
 
 The disaster management cycle is a continuous loop that connects four
-core elements in managing disasters.
+core elements in managing disasters. 
 
 * Prevention
 * Preparedness
@@ -184,6 +219,11 @@ core elements in managing disasters.
    :align: center
 
    The disaster management cycle.
+
+.. note:: You may see other definitions of the disaster management
+          cycle, which have other phases included in the loop. The
+          core concept of a cyclic process remains the same.
+
 
 
 **Prevention** is the activities and measures taken to avoid existing

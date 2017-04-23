@@ -38,7 +38,11 @@ disasters on the local population and infrastructure.
 .. * :ref:`search`
 
 
-.. image:: /images/impact_wizard.png
-   :align: center        
 
-*PacSAFE Impact Function Wizard Screenshot demonstrating possible expoure/hazard scenarios.*
+
+.. image:: /images/supporters.png
+   :align: center
+   :width: 500 pt
+
+**PacSAFE is supported by the Pacific Community and the Government of Australia**
+
