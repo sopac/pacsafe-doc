@@ -46,8 +46,8 @@ Tsunami model
 		   maximum depth occuring across the inundation period.
 =================  ========================================================================
 
-Cyclone
-.......
+Cyclone model
+.............
 
 =================  ========================================================================
 :File name:        tc_ian.tif
@@ -90,6 +90,18 @@ Exposure data
 Buildings
 .........
 
+=====================  =================================================================== 
+:File name:            to_buildings.shp
+:Training data:        Buildings
+:Geometry:             Point
+:Data type:            Classified
+:Source:               PCRAFI
+:URL:                  http://pcrafi.spc.int
+:Date:                 2010
+:Coverage:             Tonga
+=====================  ===================================================================
+
+
 
 Population
 ..........
@@ -129,7 +141,7 @@ Administrative boundaries
 :Training data:           Villages
 :Geometry:                Polygon
 :Data type:               Classified
-:Attribute field:         
+:Attribute field:         Village
 :Attribute value map:     toponymy of the area
 :Source:                  PCRAFI
 :URL:

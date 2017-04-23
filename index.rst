@@ -46,4 +46,3 @@ disasters on the local population and infrastructure.
 
 **PacSAFE is supported by the Pacific Community and the Government of Australia**
 
-*PacSAFE Impact Function Wizard Screenshot demonstrating possible expoure/hazard scenarios.*

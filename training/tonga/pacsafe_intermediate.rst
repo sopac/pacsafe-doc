@@ -54,18 +54,17 @@ As with the previous exercise, this project will show several layers:
 Run |project_name| analysis for buildings
 -----------------------------------------
 
-In the |project_name| dock on the right, 
-
 
 Define keyword for hazard data
 ..............................
 
-|project_name| need a keyword to determine what type of data the user
-provide for analysis (hazard data, exposure data or aggregation data).
-If the data provided does not have keywords set, it will show a warning
-message "Layer Keyword Missing" in the |project_name| dock. Try
-selecting :guilabel:`A category 5 cyclone in Tongatapu` layer and look
-at the |project_name| dock, You will see the following:
+|project_name| needs a set of keywords to determine what type of data
+the user provide for analysis (hazard data, exposure data or
+aggregation data).  If the data provided does not have keywords set,
+it will show a warning message "Layer Keyword Missing" in the
+|project_name| dock. Try selecting :guilabel:`A category 5 cyclone in
+Tongatapu` layer and look at the |project_name| dock, You will see the
+following:
 
 .. image:: /images/001_intermediate_pacsafe_03.png
    :align: center
@@ -133,6 +132,9 @@ Now all the keyword data has been set and we can move into the next
 section to run a |project_name| analysis for tropical cyclone with
 building data.
 
+Once the analysis is complete, review the Impact Report and consider
+the issues that would arise if such a scenario were to happen.
+
 Run |project_name| for buildings with aggregation
 -------------------------------------------------
 
@@ -162,16 +164,17 @@ Click :guilabel:`Run` and wait until |project_name| finishes analyzing
 the data. A new impact layer will be added to the Layer List. When you
 look at the result, it looks the same as |project_name| analysis
 result without aggregation, but if you scroll down to the bottom you
-will see the detailed result. As explained before, using aggregation
-will let you get detailed information for a specific area or
-administration region.
+will see the detailed result, where the numbers of different types of
+structures impacted are detailed. As explained before, using
+aggregation will let you get detailed information for a specific area
+or administration region.
 
 .. image:: /images/001_intermediate_pacsafe_10.png
    :align: center
    :width: 300 pt
 
 In the screenshot above, we see detailed impact results for each
-district in Tongatapu building report.  The aggregation option in
+district in Tongatapu building report. The aggregation option in
 |project_name| can also be applied for population and roads (in
 addition to buildings).
 
@@ -205,7 +208,7 @@ To verify that your analysis area has been successfully defined, click
 :guilabel:`Toggle Scenario Outlines`. A green box will appear around
 your data.
 
-.. image:: /static/training/socialisation/intermediate_inasafe_13.*
+.. image:: /images/001_intermediate_pacsafe_13.png
    :align: center
    :width: 300 pt
 
@@ -219,13 +222,11 @@ Take a look at the |project_name| panel dock to make sure building
 polygons and roads have a keyword defined. If they do not you can
 define one using :guilabel:`PacSAFE Keyword Wizard`.
 
-After the keyword has been already set, we are ready to run
-|project_name| for building polygons and roads.
 
 Run |project_name| analysis for building points
 -----------------------------------------------
 
-Let us run analysis for building polygons first. Make sure you set the
+Let us run an analysis for building points first. Make sure you set the
 |project_name| dock as pictured below:
 
 .. image:: /images/001_intermediate_pacsafe_09.png
