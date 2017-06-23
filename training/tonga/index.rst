@@ -43,6 +43,7 @@ to better disaster management planning and response.
    pacsafe_intermediate
    run_other_hazards
    datasets
+   faq
 
 
 .. image:: /images/tonga-nemo.jpg
