@@ -37,11 +37,14 @@ to better disaster management planning and response.
    agenda
    introduction
    drm_concepts
+   introduction_to_qgis
    pacsafe_concepts
    pacsafe_intro
    pacsafe_basic
    pacsafe_intermediate
    run_other_hazards
+   participants_survey
+   post_questionnaire
    datasets
    faq
 
