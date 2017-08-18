@@ -1,4 +1,4 @@
-.. _new_projects:
+.. _userguide:
 
 Adding new projects to |project_name|
 =====================================

@@ -1,4 +1,4 @@
-.. _tonga_training:
+.. _workshop1:
 
 PacSAFE Training Workshop - Tonga
 =================================

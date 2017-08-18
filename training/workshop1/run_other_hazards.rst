@@ -1,6 +1,6 @@
 .. image:: /images/pacsafe.png
 
-.. _other_hazards:
+.. _workshop1:
 
 Running |project_name| with other hazards
 =========================================

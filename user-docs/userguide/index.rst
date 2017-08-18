@@ -8,6 +8,7 @@ Place holder for the PacSAFE User Guide
 .. toctree::
     :maxdepth: 5
 
+    installation
     new_projects
     functionality
     writing_documentation

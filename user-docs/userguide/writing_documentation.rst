@@ -1,4 +1,4 @@
-.. _writing_documentation:
+.. _userguide:
 
 Writing Documentation
 =====================

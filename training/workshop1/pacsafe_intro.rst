@@ -1,3 +1,5 @@
+.. _workshop1:
+
 Introduction to PacSAFE
 =======================
 

@@ -1,4 +1,4 @@
-.. datasets:
+.. _tonga:
 
 Datasets
 ========

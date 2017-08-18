@@ -1,5 +1,5 @@
 
-.. _agenda:
+.. _workshop1:
 
 Workshop agenda
 ===============

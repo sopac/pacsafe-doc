@@ -1,6 +1,6 @@
 .. image:: /images/pacsafe.png
 
-.. _basic-pacsafe:
+.. _workshop1:
 
 Run basic |project_name|
 ========================
