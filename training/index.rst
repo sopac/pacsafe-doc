@@ -15,10 +15,6 @@ tailored for the audience.
     :maxdepth: 1
 
     tonga/index
-
-.. Indices and tables
-.. ==================
-
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`
+	Workshop 1 <workshop1/index>
+	Workshop 2 <workshop2/index>
+	Workshop 3 <workshop3/index>

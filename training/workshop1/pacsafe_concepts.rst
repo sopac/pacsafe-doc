@@ -1,6 +1,6 @@
 .. image:: /images/pacsafe.png
 
-.. _pacsafe_concepts:
+.. _workshop1:
 
 |project_name| concepts
 =======================

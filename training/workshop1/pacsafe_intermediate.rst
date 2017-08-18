@@ -1,6 +1,6 @@
 .. image:: /images/pacsafe.png
 
-.. _intermediate-pacsafe:
+.. _workshop1:
 
 Run intermediate |project_name|
 ===============================

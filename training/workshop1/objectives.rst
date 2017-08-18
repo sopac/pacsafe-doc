@@ -1,4 +1,4 @@
-.. _objectives:
+.. _workshop1:
 
 Course Objectives
 =================

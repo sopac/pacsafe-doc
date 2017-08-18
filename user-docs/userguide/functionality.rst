@@ -1,9 +1,9 @@
-.. _functionality:
+.. _userguide:
 
-Functionality
-=============
+Data Requirements
+=================
 
-This document describes |project_name|'s functionality in regard to what
+This document describes the data requirements of |project_name| in regard to what
 inputs are needed to carry out an analysis.
 
 At the highest level |project_name| will take a hazard layer (such as ground
