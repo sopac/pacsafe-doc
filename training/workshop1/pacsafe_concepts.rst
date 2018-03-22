@@ -208,10 +208,18 @@ management planning.
 A more complete description of the available hazard types can be found
 in the :ref:`functionality` section of the |project_name| User Guide.
 
+.. |inasafe_logo| image:: /images/InaSAFE_logo.png
+
+|inasafe_logo| Hazards in InaSAFE?
+----------------------------------
+“In the context of InaSAFE a hazard is any natural or human caused event or series of
+events that may negatively impact the population, infrastructure or resources in an
+area.”
+
 
 .. image:: /images/You_try.png
-You try exercise
------------------
+You try exercise 1
+------------------
 Goal: To be able to identify suitable data for use in InaSAFE.
 
 Scenario:
@@ -225,22 +233,24 @@ mark if there is no match, and “yes” or “no” to
 indicate it the data is suitable. The first item is
 completed for you as an example.*
 
-+------------------------------------------------------------------------------------------------+
-| Data                                                                                           |
-+================================================================================================+
-| A MODIS raster dataset with multiple bands showing flooded areas for a recent flood event.     |
-+------------------------------------------------------------------------------------------------+
-| A shapefile containing flooded areas from a flood last month with a flood depth for each area. |                                                                                                                                                                                                             |
-+------------------------------------------------------------------------------------------------+
-
-
 +-----------------------------------------------------------------------------------------------+------------------------+
-| Data                                                                                          | Suitability            |
+| Data                                                                                          | Suitable               |
 +===============================================================================================+========================+
-| A MODIS raster dataset with multiple bands showing flooded areas for a recent flood event.    |                        |
+| A MODIS raster dataset with multiple bands showing flooded areas for a recent flood event.    |Y/N                     |
 +-----------------------------------------------------------------------------------------------+------------------------+
-| A shapefile containing flooded areas from a flood last month with a flood depth for each area.|                        |
+| A shapefile containing flooded areas from a flood last month with a flood depth for each area.|Y/N                     |
 +-----------------------------------------------------------------------------------------------+------------------------+
+| A shapefile containing flood prone areas produced from combining the last 10 flood events.    |Y/N                     |
++-----------------------------------------------------------------------------------------------+------------------------+
+| A single band raster where each cell depicts a flood hazard category of high, medium or low.  |Y/N                     |
++-----------------------------------------------------------------------------------------------+------------------------+
+| A point vector layer showing places where volcano eruptions have taken place.                 |Y/N                     |
++-----------------------------------------------------------------------------------------------+------------------------+
+
+.. image:: /images/You_try.png
+You try exercise 2
+------------------
+
 
 
 
