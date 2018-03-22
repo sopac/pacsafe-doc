@@ -209,7 +209,7 @@ A more complete description of the available hazard types can be found
 in the :ref:`functionality` section of the |project_name| User Guide.
 
 
-.. image:: /images/you_try.png
+.. image:: /images/You_try.png
 You try exercise
 -----------------
 
