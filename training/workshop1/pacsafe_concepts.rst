@@ -214,17 +214,27 @@ You try exercise
 -----------------
 Goal: To be able to identify suitable data for use in InaSAFE.
 
-+------------+------------+-----------+
-| Header 1   | Header 2   | Header 3  |
-+============+============+===========+
-| body row 1 | column 2   | column 3  |
-+------------+------------+-----------+
-| body row 2 | Cells may span columns.|
-+------------+------------+-----------+
-| body row 3 | Cells may  | - Cells   |
-+------------+ span rows. | - contain |
-| body row 4 |            | - blocks. |
-+------------+------------+-----------+
+*You are working in a disaster agency and
+receive a dataset. Evaluate the dataset in
+terms of its suitability for use in InaSAFE. Use
+the letter prefixes from the table above to
+indicate what the mode, category and
+geometry is for each dataset. Put a question
+mark if there is no match, and “yes” or “no” to
+indicate it the data is suitable. The first item is
+completed for you as an example.*
+
++---------------------------+-----------------------------------------------------------------------+
+| Data                      | Suitability                                                           |
+|                           |                                                                       |
++---------------------------+----------------------------------------------------------------+------+
+| A MODIS raster dataset with multiple bands showing flooded areas for a recent flood event. |
+|                                                                                            |
++---------------------------+----------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Response:**             | *"The provision of emergency services and public assistance during or immediately after a disaster in order to save lives, reduce health impacts, ensure public safety and meet the basic subsistence needs of the people affected."*                                           |
+|                           |                                                                                                                                                                                                                                                                                 |
++---------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
 
 
 What is exposure data?
