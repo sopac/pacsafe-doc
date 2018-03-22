@@ -77,7 +77,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 pygments_style = 'sphinx'
 
 rst_epilog = """
-.. |project_name| replace:: PacSAFE
+.. |project_name| replace:: InaSAFE
 .. |SPC| replace:: SPC_
 .. _SPC: http://gsd.spc.int
 .. |GFDRR| replace:: GFDRR_

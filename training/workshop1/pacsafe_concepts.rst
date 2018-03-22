@@ -209,6 +209,16 @@ A more complete description of the available hazard types can be found
 in the :ref:`functionality` section of the |project_name| User Guide.
 
 
+.. image:: /images/pacsafe.png
+You try exercise
+-----------------
+
+
+
+
+
+
+
 What is exposure data?
 ----------------------
 

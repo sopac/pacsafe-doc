@@ -9,7 +9,6 @@ The |project_name| training workshop is facilitated by |GA| and |SPC|. The first
 Day 1
 -----
 
-* Test
 * Welcome
 * Opening remarks
 * Introduction to |project_name| project
