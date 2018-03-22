@@ -214,6 +214,7 @@ You try exercise
 -----------------
 Goal: To be able to identify suitable data for use in InaSAFE.
 
+Scenario:
 *You are working in a disaster agency and
 receive a dataset. Evaluate the dataset in
 terms of its suitability for use in InaSAFE. Use
@@ -224,16 +225,16 @@ mark if there is no match, and “yes” or “no” to
 indicate it the data is suitable. The first item is
 completed for you as an example.*
 
-+---------------------------+-----------------------------------------------------------------------+
-| Data                      | Suitability                                                           |
-|                           |                                                                       |
-+---------------------------+----------------------------------------------------------------+------+
-| A MODIS raster dataset with multiple bands showing flooded areas for a recent flood event. |
-|                                                                                            |
-+---------------------------+----------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Response:**             | *"The provision of emergency services and public assistance during or immediately after a disaster in order to save lives, reduce health impacts, ensure public safety and meet the basic subsistence needs of the people affected."*                                           |
-|                           |                                                                                                                                                                                                                                                                                 |
-+---------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------+
+| Data                                                                                           |
+|                                                                                                |
++------------------------------------------------------------------------------------------------+
+| A MODIS raster dataset with multiple bands showing flooded areas for a recent flood event.     |
+|                                                                                                |
++------------------------------------------------------------------------------------------------+
+| A shapefile containing flooded areas from a flood last month with a flood depth for each area. |
+|                                                                                                |                                                                                                                                                                                                                 |
++------------------------------------------------------------------------------------------------+
 
 
 
