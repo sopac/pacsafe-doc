@@ -227,13 +227,10 @@ completed for you as an example.*
 
 +------------------------------------------------------------------------------------------------+
 | Data                                                                                           |
-|                                                                                                |
 +================================================================================================+
 | A MODIS raster dataset with multiple bands showing flooded areas for a recent flood event.     |
-|                                                                                                |
 +------------------------------------------------------------------------------------------------+
-| A shapefile containing flooded areas from a flood last month with a flood depth for each area. |
-|                                                                                                |                                                                                                                                                                                                                 |
+| A shapefile containing flooded areas from a flood last month with a flood depth for each area. |                                                                                                                                                                                                             |
 +------------------------------------------------------------------------------------------------+
 
 
