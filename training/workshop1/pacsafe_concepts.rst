@@ -418,19 +418,20 @@ eruption on crops.
 
 .. _aggregation:
 
-
-.. image:: /images/InaSAFE_Exercise_logo.png
-You try InaSAFE
----------------
-In this exercise we will add in some exposure layers, perform a basic selection query and symbolise buildings on wall type.
-
++----------------------------------------------------------------------------------------------------------------------------+
+|.. image:: /images/InaSAFE_Exercise_logo.png                                                                                |
+|                                                                                                                            |
+|You try InaSAFE                                                                                                             |
+|---------------                                                                                                             |
+|In this exercise we will add in some exposure layers, perform a basic selection query and symbolise buildings on wall type. |
++----------------------------------------------------------------------------------------------------------------------------+
 1. Open QGIS
+
 2. Add in the buildings exposure dataset using the **add vector layer** button.
 
 The buidings vector layer will now be displayed in the main window.
 
-3. Open the attribute table of the buildings layer by right clicking on the layer name in the layers panel
-and selecting **Open attribute table**.
+3. Open the attribute table of the buildings layer by right clicking on the layer name in the layers panel and selecting **Open attribute table**.
 
 Notice the fields and values that the buildings layer contains.
 
@@ -452,8 +453,7 @@ Now we will symbolise the buildings layer to visually display the different wall
 
 8. Under **Legend type**, select Unique Value from the drop down list.
 
-9. Under the Classification field, select the name of the attribute field you want to symbolize
-on your map, which in this case is **Wall_type**.
+9. Under the Classification field, select the name of the attribute field you want to symbolize on your map, which in this case is **Wall_type**.
 
 This will display a list of classes, one for each unique value from the **Wall_type** class
 is assigned a colour symbol. Unless specific colours are selected, QGIS will rand
