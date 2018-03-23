@@ -418,7 +418,11 @@ eruption on crops.
 
 .. _aggregation:
 
+``*`` test paragraph ``*``
+
+
 .. DANGER::
+
    Beware killer rabbits!
 
 .. image:: /images/InaSAFE_Exercise_logo.png
