@@ -254,6 +254,11 @@ You try exercise 2
 ------------------
 
 
+West led the |H| 3, covered by dummy's |H| Q, East's |H| K,
+and trumped in hand with the |S| 2.
+
+.. |H| image:: /images/You_try.png
+
 
 
 
