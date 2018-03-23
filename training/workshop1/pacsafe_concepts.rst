@@ -418,7 +418,7 @@ eruption on crops.
 
 .. _aggregation:
 
-``*`` test paragraph ``*``
+"`` test paragraph "``
 
 
 .. DANGER::
