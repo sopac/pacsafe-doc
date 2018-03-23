@@ -208,7 +208,7 @@ management planning.
 A more complete description of the available hazard types can be found
 in the :ref:`functionality` section of the |project_name| User Guide.
 
-.. image:: /images/InaSAFE_Exercise_logo.png
+
 
 Hazards in InaSAFE
 ------------------
@@ -217,10 +217,21 @@ Hazards in InaSAFE
 events that may negatively impact the population, infrastructure or resources in an
 area.”
 
+.. image:: /images/InaSAFE_Exercise_logo.png
+You try InaSAFE
+---------------
+In this exercise we will add in some hazard layers to get a feel of what they represent.
 
-.. image:: /images/You_try.png
-You try exercise 1
-------------------
+1. Open QGIS
+2. Add in the cyclone hazard using the **add raster layer** button.
+
+The Cyclone raster layer will now be displayed in the main window.
+
+
+
+.. image:: /images/questionnaire_logo.png
+You try questionnaire
+---------------------
 Goal: To be able to identify suitable data for use in InaSAFE.
 
 Scenario:
@@ -248,13 +259,12 @@ completed for you as an example.*
 | A point vector layer showing places where volcano eruptions have taken place.                 |Y/N                     |
 +-----------------------------------------------------------------------------------------------+------------------------+
 
-.. image:: /images/You_try.png
-You try exercise 2
-------------------
-
-
-
-
+.. image:: /images/tick.png
+Check your results:
+...................
+Swap you list with the person next to you and
+see if they had any different ideas about which
+consitute valid hazard data.
 
 
 
@@ -407,6 +417,48 @@ eruption on crops.
 +------------+-------------------------------------------------------+
 
 .. _aggregation:
+
+
+.. image:: /images/InaSAFE_Exercise_logo.png
+You try InaSAFE
+---------------
+In this exercise we will add in some exposure layers, perform a basic selection query and symbolise buildings on wall type.
+
+1. Open QGIS
+2. Add in the buildings exposure dataset using the **add vector layer** button.
+
+The buidings vector layer will now be displayed in the main window.
+
+3. Open the attribute table of the buildings layer by right clicking on the layer name in the layers panel
+and selecting **Open attribute table**.
+
+Notice the fields and values that the buildings layer contains.
+
+4. In the attribute table, click **Advanced search button**.
+
+The Search query builder window appears with a list of the attribute table headings
+(Fields), some calculation buttons (Operators) and a textbox at the bottom into which are
+typed search expressions (SQL where clause).....
+
+5. Create a query to select the buildings with brick wall type.
+
+Notice at the top of the attribute table telling you that number of buildings that have brick wall type.
+
+Now we will symbolise the buildings layer to visually display the different wall types of the buildings.
+
+6. Right click the buildings layer in the table of contents and select **Properties**.
+
+7. In the window that opens select the **Style** tab.
+
+8. Under **Legend type**, select Unique Value from the drop down list.
+
+9. Under the Classification field, select the name of the attribute field you want to symbolize
+on your map, which in this case is **Wall_type**.
+
+This will display a list of classes, one for each unique value from the **Wall_type** class
+is assigned a colour symbol. Unless specific colours are selected, QGIS will rand
+colours, one for each class.
+
 
 What is aggregation?
 --------------------
