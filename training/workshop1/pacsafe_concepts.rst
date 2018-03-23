@@ -418,13 +418,14 @@ eruption on crops.
 
 .. _aggregation:
 
-+----------------------------------------------------------------------------------------------------------------------------+
-|.. image:: /images/InaSAFE_Exercise_logo.png                                                                                |
-|                                                                                                                            |
-|You try InaSAFE                                                                                                             |
-|---------------                                                                                                             |
-|In this exercise we will add in some exposure layers, perform a basic selection query and symbolise buildings on wall type. |
-+----------------------------------------------------------------------------------------------------------------------------+
+.. DANGER::
+   Beware killer rabbits!
+
+.. image:: /images/InaSAFE_Exercise_logo.png
+You try InaSAFE
+---------------
+In this exercise we will add in some exposure layers, perform a basic selection query and symbolise buildings on wall type.
+
 1. Open QGIS
 
 2. Add in the buildings exposure dataset using the **add vector layer** button.
