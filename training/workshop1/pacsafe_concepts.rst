@@ -208,12 +208,10 @@ management planning.
 A more complete description of the available hazard types can be found
 in the :ref:`functionality` section of the |project_name| User Guide.
 
+.. image:: /images/InaSAFE_Exercise_logo.png
 
 Hazards in InaSAFE
 ------------------
-
-.. image:: /images/InaSAFE_Exercise_logo.PNG
-
 
 “In the context of InaSAFE a hazard is any natural or human caused event or series of
 events that may negatively impact the population, infrastructure or resources in an
