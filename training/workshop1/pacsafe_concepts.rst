@@ -209,10 +209,10 @@ A more complete description of the available hazard types can be found
 in the :ref:`functionality` section of the |project_name| User Guide.
 
 
-|H| Hazards in InaSAFE
+Hazards in InaSAFE
+------------------
 
-
-.. |H| image:: /images/InaSAFE_logo.PNG
+.. image:: /images/InaSAFE_Exercise_logo.PNG
 
 
 “In the context of InaSAFE a hazard is any natural or human caused event or series of
