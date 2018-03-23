@@ -212,7 +212,7 @@ in the :ref:`functionality` section of the |project_name| User Guide.
 West led the |H| 3, covered by dummy's |H| Q, East's |H| K,
 and trumped in hand with the |S| 2.
 
-.. |H| image:: /images/InaSAFE_logo.png
+.. |H| image:: /images/InaSAFE_logo.PNG
 
 
 “In the context of InaSAFE a hazard is any natural or human caused event or series of
