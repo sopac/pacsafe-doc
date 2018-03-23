@@ -209,8 +209,8 @@ A more complete description of the available hazard types can be found
 in the :ref:`functionality` section of the |project_name| User Guide.
 
 
-West led the |H| 3, covered by dummy's |H| Q, East's |H| K,
-and trumped in hand with the |S| 2.
+|H| Hazards in InaSAFE
+
 
 .. |H| image:: /images/InaSAFE_logo.PNG
 
