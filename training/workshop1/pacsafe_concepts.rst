@@ -223,9 +223,34 @@ You try InaSAFE
 In this exercise we will add in some hazard layers to get a feel of what they represent.
 
 1. Open QGIS
-2. Add in the cyclone hazard using the **add raster layer** button.
+2. Add in the below cyclone hazard datasets using the **add raster layer** button.
 
-The Cyclone raster layer will now be displayed in the main window.
+*   geonode_fij_w500_tr_west.tif
+*   geonode_fij_w500_tr_east.tif
+
+The Cyclone layers will now be displayed in the main window.
+
+.. image:: /images/cyclone_hazard.png
+
+3. Inspect the value of the raster dataset.
+
+What do the values represent?
+
+2. Add in the earthquake hazard dataset (geonode_fij_00_100t.tif) using the **add raster layer** button.
+
+The earth quake layer will now be displayed in the main window.
+
+.. image:: /images/earthquake_hazard.png
+
+3. Inspect the value of the raster dataset.
+
+What do the values represent?
+
+4. Add in the earthquake hazard dataset (?.shp) using the **add vector layer** button.
+
+5. Inspect the vector dataset.
+
+What are the hazard classification levels of the Tsunami? (Hint: look in datasets attribute table).
 
 
 
@@ -432,9 +457,56 @@ eruption on crops.
     interpreted as body elements.
 
 
-.. DANGER::
+Exposure in InaSAFE
+-------------------
+“In the context of InaSAFE, exposure refers to people, infrastructure or land areas that
+may be affected by a disaster.”
 
-   Beware killer rabbits!
+Currently InaSAFE supports these kinds of exposure data: population / people, roads,
+buildings, places, landcover. Exposure datasets need to comply with these modes and
+geometries:
+
++--------------------+-----------------------------------------------+
+| **Exposure Modes** | **Exposure Geometries**                       |
++--------------------+------------------+----------------------------+
+| a) Coninuous data  | c) Vector points | e) Vector polygons         |
++--------------------+------------------+----------------------------+
+| b) Classified data | d) Vector lines  | f) Single band rasters     |
++--------------------+------------------+----------------------------+
+
+.. image:: /images/questionnaire_logo.png
+You try questionnaire
+---------------------
+Goal: To be able to identify suitable data for use in InaSAFE.
+
+*Complete the table below by indicating
+one example exposure type for each geometry
+type and mode. The first entry has been
+completed for you as an example.*
+
++-----------------------------------------------------------------------------------------------+------------------------+
+| **Dataset**                                                                                   | **Example**            |
++===============================================================================================+========================+
+| Continuous data                                                                               | Population areas       |
++-----------------------------------------------------------------------------------------------+------------------------+
+| Classified data                                                                               |Y/N                     |
++-----------------------------------------------------------------------------------------------+------------------------+
+| Vector points                                                                                 |Y/N                     |
++-----------------------------------------------------------------------------------------------+------------------------+
+| Vector lines                                                                                  |Y/N                     |
++-----------------------------------------------------------------------------------------------+------------------------+
+| Vector Polygons                                                                               |Y/N                     |
++-----------------------------------------------------------------------------------------------+------------------------+
+| Single band rasters                                                                           |Y/N                     |
++-----------------------------------------------------------------------------------------------+------------------------+
+
+.. image:: /images/tick.png
+Check your results:
+...................
+Swap you list with the person next to you and
+see if they had any different ideas about which
+consitute valid hazard data.
+
 
 .. image:: /images/InaSAFE_Exercise_logo.png
 You try InaSAFE
@@ -445,7 +517,7 @@ In this exercise we will add in some exposure layers, perform a basic selection 
 
 2. Add in the buildings exposure dataset using the **add vector layer** button.
 
-The buidings vector layer will now be displayed in the main window.
+The buildings vector layer will now be displayed in the main window.
 
 3. Open the attribute table of the buildings layer by right clicking on the layer name in the layers panel and selecting **Open attribute table**.
 
@@ -455,7 +527,7 @@ Notice the fields and values that the buildings layer contains.
 
 The Search query builder window appears with a list of the attribute table headings
 (Fields), some calculation buttons (Operators) and a textbox at the bottom into which are
-typed search expressions (SQL where clause).....
+typed search expressions (SQL where clause).
 
 5. Create a query to select the buildings with brick wall type.
 
@@ -497,6 +569,27 @@ many men, women etc. were probably affected in that area.
 
    Example of aggregation data for Tongatapu. In this case the aggregation
    areas are villages. Source: PCRAFI.
+
+
+.. image:: /images/InaSAFE_Exercise_logo.png
+You try InaSAFE
+---------------
+In this exercise you will add in layers that can be used to aggregate inasafe results within specific administation
+boundaries.
+
+1. Add in the below Fiji village and division boundary datasets using the **add vector layer** button.
+
+*   fji_polbnda_adm0_country.shp
+*   fji_polbnda_adm1_district.shp
+*   fji_polbnda_adm2_province.shp
+*   fji_polbnda_adm3_tikina.shp
+
+These administration layers will now be displayed in the main window.
+
+2. Inspect each layer, noticing the differences in each.
+
+These layers can each be used to group or aggregate the results of the analysis.
+
 
 What is contextual data?
 ------------------------
