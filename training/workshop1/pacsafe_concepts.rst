@@ -757,28 +757,6 @@ people commonly build their houses on raised platforms.
 
    Classified raster flood data - courtesy BNPB/Australian Government
 
-What is the analysis extent?
-----------------------------
-
-In |project_name| you need to explicitly state what the intended
-analysis extent should be. In other words, you need to tell
-|project_name| where the analysis should be carried out. There is a
-tool in |project_name| that will allow you to drag a box around the
-intended analysis area - you should always check that you have done
-this before starting your analysis.
-
-.. figure:: /images/001_analysis_extent.png
-
-   Example extent areas in |project_name|.
-
-|project_name| will show you what your current desired analysis extent
-is (blue box), what the extent of your last analysis was (red box in
-the image above) and what your effective extent is (green box in the
-image above). The effective extent may not correspond exactly to your
-desired analysis extent because |project_name| always aligns the
-extent to the edge of raster pixels.
-
-
 
 What is an Impact Function?
 ---------------------------
@@ -811,10 +789,26 @@ layers for which there are Impact Functions.
 
 
 .. image:: /images/InaSAFE_Exercise_logo.png
+
+
 You try InaSAFE
 ---------------
 
-Goal: Set the analysis extent and view the **Impact function**.
+Goal: View the **Impact function** and get an understanding of the steps in running a guided impact assessment.
+
+1. In QGIS add in the following hazard and exposure datasets
+
++-----------------------------------------------------------------------------------------------+------------------------+
+| **Hazards**                                                                                   | **Exposures**          |
++===============================================================================================+========================+
+| Tsunami flood extent                                                                          | Population             |
++-----------------------------------------------------------------------------------------------+------------------------+
+| Cyclone wind                                                                                  | Buildings              |
++-----------------------------------------------------------------------------------------------+------------------------+
+
+2. Click on the **Impact function**
+
+.. image:: /images/InaSAFE_toolbar_Impact_function.png
 
 
 
