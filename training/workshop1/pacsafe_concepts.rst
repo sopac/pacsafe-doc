@@ -246,7 +246,7 @@ The earth quake layer will now be displayed in the main window.
 
 What do the values represent?
 
-4. Add in the earthquake hazard dataset (?.shp) using the **add vector layer** button.
+4. Add in the Tsnunami hazard dataset (?.shp) using the **add vector layer** button.
 
 5. Inspect the vector dataset.
 
@@ -523,11 +523,10 @@ The buildings vector layer will now be displayed in the main window.
 
 Notice the fields and values that the buildings layer contains.
 
-4. In the attribute table, click **Advanced search button**.
+4. In the attribute table, click **Select features using expression** button.
 
-The Search query builder window appears with a list of the attribute table headings
-(Fields), some calculation buttons (Operators) and a textbox at the bottom into which are
-typed search expressions (SQL where clause).
+The select by expression window appears with some calculation buttons (Operators) and a textbox at the bottom into
+which are typed search expressions (SQL where clause).
 
 5. Create a query to select the buildings with brick wall type.
 
@@ -539,14 +538,15 @@ Now we will symbolise the buildings layer to visually display the different wall
 
 7. In the window that opens select the **Style** tab.
 
-8. Under **Legend type**, select Unique Value from the drop down list.
+8. At the very top of window select the first drop down list and select **Categorised** from the drop down list.
 
-9. Under the Classification field, select the name of the attribute field you want to symbolize on your map, which in this case is **Wall_type**.
+9. Under the **Column** drop down list, select the name of the attribute field you want to symbolize on your map, which in this case is **Wall_type**.
 
 This will display a list of classes, one for each unique value from the **Wall_type** class
-is assigned a colour symbol. Unless specific colours are selected, QGIS will rand
+is assigned a colour symbol. Unless specific colours are selected, QGIS will assign random
 colours, one for each class.
 
+10. Select **OK** and view the results.
 
 What is aggregation?
 --------------------
@@ -778,6 +778,8 @@ image above). The effective extent may not correspond exactly to your
 desired analysis extent because |project_name| always aligns the
 extent to the edge of raster pixels.
 
+
+
 What is an Impact Function?
 ---------------------------
 
@@ -803,9 +805,19 @@ layers for which there are Impact Functions.
 
 .. figure:: /images/impact_wizard.png
    :align: center
-   
+
    |project_name| Impact Function Wizard demonstrating possible
    exposure and hazard combinations.
+
+
+.. image:: /images/InaSAFE_Exercise_logo.png
+You try InaSAFE
+---------------
+
+Goal: Set the analysis extent and view the **Impact function**.
+
+
+
 
 
 Supported data types for each hazard type in |project_name|
@@ -923,77 +935,6 @@ Each Impact Function will generate outputs that may include:
 .. image:: /images/001_inasafe_output.png
    :align: center
    :width: 300 pt
-
-
-What is an impact layer?
-------------------------
-An impact layer is a new GIS dataset that is produced as the result of
-running an impact function. It will usually represent the exposure layer.
-For example, if you do a flood  analysis on buildings, the impact layer
-produced will be a buildings layer but each building will be classified
-according to whether it is dry, wet or flooded. |project_name| will typically
-apply its own symbology to the output impact layer to make it clear which
-are the impacted buildings. This is illustrated in the image below.
-
-It should also be noted that the impact layer will only include features /
-cells that occur within the analysis extent. All others will be 'clipped away'.
-It is very important to remember this when interpreting the map legend and the
-impact summary (see section below) because they are only relevant to the
-analysis area.  The impact layer is not saved by default. If you want to
-save this spatial data you need to do this yourself.
-
-.. image:: /images/001_building_output.png
-   :align: center
-   :width: 300 pt
-
-What is the impact summary?
----------------------------
-Whereas the impact layer represents spatial data, the impact summary is
-tabular and textual data. The impact summary provides a table (or series of
-tables) and other textual information with the numbers of buildings, roads or
-people affected, and includes other useful information such as minimum needs
-breakdowns, action checklists and summaries. The impact summary presents the
-results of the impact function in an easy to digest form. Our expectation that
-the numbers show here would form part of the input to your emergency
-management planning process - typically as a launch point for discussion and
-planning on how to have sufficient resources in order to cater for the
-impacted people, buildings or roads should a similar event to the one on
-which the scenario is based occur.
-
-An example of an impact summary is shown below.
-
-.. image:: /images/001_impact_summary_buildings.png
-   :align: center
-   :width: 600 pt
-
-Example impact summary table showing breakdown of buildings flooded.
-
-What are minimum needs?
------------------------
-Minimum needs are a population specific reporting component for the
-impact summary. They are based on generic or regional preferences and define
-the daily food and well-being requirements for each individual who may be
-displaced during a disaster. For example you could specify that each person
-should receive 20l of fresh drinking water per day, 50l of bathing water and
-so on. |project_name| will calculate these numbers to provide an estimate of
-the total needs for the displaced population.
-
-.. image:: /images/001_impact_summary_min_needs.png
-   :align: center
-   :width: 600 pt
-
-What are action checklists?
----------------------------
-Action checklists are generated lists of things disaster managers should
-consider when implementing their disaster management plan. Currently the
-action checklists are fairly simplistic - they are intended to prompt
-discussion and stimulate disaster managers to think about the important
-contingencies they should have in place.
-
-.. image:: /images/001_impact_summary_actions.png
-   :align: center
-   :width: 300 pt
-
 
 Summary
 -------

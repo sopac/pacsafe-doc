@@ -8,10 +8,9 @@ Run basic |project_name|
 Introduction
 ------------
 
-In this exercise, we will work through an example scenario where we
-show how the different data elements used by |project_name| are combined in
-order to analyse the potential impact of a tsunami on both the
-buildings and population.
+In this module, we will learn about the results of a InaSAFE analysis and work through an example scenario where we
+show how the different data elements used by |project_name| are combined in order to analyse the potential impact of a
+tsunami on both the buildings and population.
 
 After we have run the |project_name| analysis we will print the map and
 analysis report as a pdf and review the results. We will also learn
@@ -33,6 +32,76 @@ sector. By the end of this exercise, participants will:
 *   Be able to change the analysis threshold and run a new scenario;
 *   Be able to generate a PDF map from the results of an analysis; and
 *   Be able to save their work to share results with others.
+
+
+What is an impact layer?
+------------------------
+An impact layer is a new GIS dataset that is produced as the result of
+running an impact function. It will usually represent the exposure layer.
+For example, if you do a flood  analysis on buildings, the impact layer
+produced will be a buildings layer but each building will be classified
+according to whether it is dry, wet or flooded. |project_name| will typically
+apply its own symbology to the output impact layer to make it clear which
+are the impacted buildings. This is illustrated in the image below.
+
+It should also be noted that the impact layer will only include features /
+cells that occur within the analysis extent. All others will be 'clipped away'.
+It is very important to remember this when interpreting the map legend and the
+impact summary (see section below) because they are only relevant to the
+analysis area.  The impact layer is not saved by default. If you want to
+save this spatial data you need to do this yourself.
+
+.. image:: /images/001_building_output.png
+   :align: center
+   :width: 300 pt
+
+What is the impact summary?
+---------------------------
+Whereas the impact layer represents spatial data, the impact summary is
+tabular and textual data. The impact summary provides a table (or series of
+tables) and other textual information with the numbers of buildings, roads or
+people affected, and includes other useful information such as minimum needs
+breakdowns, action checklists and summaries. The impact summary presents the
+results of the impact function in an easy to digest form. Our expectation that
+the numbers show here would form part of the input to your emergency
+management planning process - typically as a launch point for discussion and
+planning on how to have sufficient resources in order to cater for the
+impacted people, buildings or roads should a similar event to the one on
+which the scenario is based occur.
+
+An example of an impact summary is shown below.
+
+.. image:: /images/001_impact_summary_buildings.png
+   :align: center
+   :width: 600 pt
+
+Example impact summary table showing breakdown of buildings flooded.
+
+What are minimum needs?
+-----------------------
+Minimum needs are a population specific reporting component for the
+impact summary. They are based on generic or regional preferences and define
+the daily food and well-being requirements for each individual who may be
+displaced during a disaster. For example you could specify that each person
+should receive 20l of fresh drinking water per day, 50l of bathing water and
+so on. |project_name| will calculate these numbers to provide an estimate of
+the total needs for the displaced population.
+
+.. image:: /images/001_impact_summary_min_needs.png
+   :align: center
+   :width: 600 pt
+
+What are action checklists?
+---------------------------
+Action checklists are generated lists of things disaster managers should
+consider when implementing their disaster management plan. Currently the
+action checklists are fairly simplistic - they are intended to prompt
+discussion and stimulate disaster managers to think about the important
+contingencies they should have in place.
+
+.. image:: /images/001_impact_summary_actions.png
+   :align: center
+   :width: 300 pt
 
 
 
