@@ -565,10 +565,57 @@ are provided and the exposure layer is population, |project_name| will
 provide a demographic breakdown per aggregation area indicating how
 many men, women etc. were probably affected in that area.
 
+While it is not required to use aggregation areas in InaSAFE, it is recommended.
+Aggregation areas are typically political boundaries: wards, villages, districts, provinces
+etc. Generally disasters are more localised in scale, so using smaller aggregation units
+often makes sense. Currently InaSAFE supports only vector polygon datasets for use as
+aggregation layers. The aggregation layer used will also determine the analysis area
+when running an analysis in InaSAFE. If a QGIS selection has been made on an
+aggregation layer, the analysis will be constrained to only the selected areas.
+
+
 .. figure:: /images/001_tonga_villages.png
 
    Example of aggregation data for Tongatapu. In this case the aggregation
    areas are villages. Source: PCRAFI.
+
+
+.. image:: /images/questionnaire_logo.png
+You try questionnaire
+---------------------
+Goal: To be able to understand the importance of aggregation data in InaSAFE.
+
+*Think about a disaster prone area in your
+community. Now think about contingency
+planning and post disaster support operations
+for that area. What aggregation area unit
+(ward, village, district, etc.) makes the most
+sense, and why? Use the space provided in the table below
+for your answer and jot down a few
+keywords justifying your choice.*
+
++-----------------------------------------------------------------------------------------------+------------------------+
+| **Aggregation Unit**                                                                          |                        |
++===============================================================================================+========================+
+| Reasoning                                                                                     |                        |
+|                                                                                               |                        |
+|                                                                                               |                        |
+|                                                                                               |                        |
+|                                                                                               |                        |
+|                                                                                               |                        |
+|                                                                                               |                        |
+|                                                                                               |                        |
+|                                                                                               |                        |
+|                                                                                               |                        |
+|                                                                                               |                        |
++-----------------------------------------------------------------------------------------------+------------------------+
+
+.. image:: /images/tick.png
+Check your results:
+...................
+Swap you list with the person next to you and
+see if they had any different ideas about which
+consitute valid hazard data.
 
 
 .. image:: /images/InaSAFE_Exercise_logo.png
@@ -603,6 +650,36 @@ what buildings and infrastructure exist in the area.
 .. figure:: /images/001_tonga_aerial.png
    
     Aerial imagery for Nuku'alofa, Tonga. Source: PCRAFI.
+
+A practical example using InaSAFE with OSM data
+...............................................
+We mentioned in the overview of exposure data that these data can be easily obtained
+from OpenStreetmap in InaSAFE. In fact InaSAFE have built a service that extracts exposure
+data from OSM, cleans the data, applies standard symbology to it, adds InaSAFE
+keywords, packs everything up in a zip file for easy use in InaSAFE. The service runs on
+an internet server (http://osm.inasafe.org) so requires internet connectivity to use. We
+have built a client for the service directly into InaSAFE.
+
+.. image:: /images/InaSAFE_Exercise_logo.png
+You try InaSAFE
+---------------
+Goal: To be able to add data from OSM.
+
+1. In QGIS look in your InaSAFE toolbar for the OpenStreetmap Downloader.
+.. image:: /images/InaSAFE_toolbar_OSM.png
+
+
+2. Run the downloader with the following options.
+.. image:: /images/OSM_downloader.png
+
+
+3. Click on the **Drag on map** button and select an area where you want to download the OSM data.
+
+After the data has downloaded, you will notice the data will appear in QGIS.
+
+Is the data you downloaded hazard data, exposure data or aggregate data?
+
+4. ...create steps for imagery plugins using web services...
 
 What is the difference between raster and vector data?
 ------------------------------------------------------
@@ -648,6 +725,8 @@ modelled hazards such as flood depth, tsunami inundation and for
 population exposure.
 
 .. _continuous_vs_classified:
+
+
 
 What is the difference between continuous and classified data?
 --------------------------------------------------------------
