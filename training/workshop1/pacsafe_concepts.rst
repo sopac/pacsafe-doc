@@ -666,10 +666,12 @@ You try InaSAFE
 Goal: To be able to add data from OSM.
 
 1. In QGIS look in your InaSAFE toolbar for the OpenStreetmap Downloader.
+
 .. image:: /images/InaSAFE_toolbar_OSM.png
 
 
 2. Run the downloader with the following options.
+
 .. image:: /images/OSM_downloader.png
 
 
