@@ -209,6 +209,90 @@ A more complete description of the available hazard types can be found
 in the :ref:`functionality` section of the |project_name| User Guide.
 
 
+
+Hazards in InaSAFE
+------------------
+
+“In the context of InaSAFE a hazard is any natural or human caused event or series of
+events that may negatively impact the population, infrastructure or resources in an
+area.”
+
+.. image:: /images/InaSAFE_Exercise_logo.png
+You try InaSAFE
+---------------
+In this exercise we will add in some hazard layers to get a feel of what they represent.
+
+1. Open QGIS
+2. Add in the below cyclone hazard datasets using the **add raster layer** button.
+
+*   geonode_fij_w500_tr_west.tif
+*   geonode_fij_w500_tr_east.tif
+
+The Cyclone layers will now be displayed in the main window.
+
+.. image:: /images/cyclone_hazard.png
+
+3. Inspect the value of the raster dataset.
+
+What do the values represent?
+
+2. Add in the earthquake hazard dataset (geonode_fij_00_100t.tif) using the **add raster layer** button.
+
+The earth quake layer will now be displayed in the main window.
+
+.. image:: /images/earthquake_hazard.png
+
+3. Inspect the value of the raster dataset.
+
+What do the values represent?
+
+4. Add in the Tsnunami hazard dataset (?.shp) using the **add vector layer** button.
+
+5. Inspect the vector dataset.
+
+What are the hazard classification levels of the Tsunami? (Hint: look in datasets attribute table).
+
+
+
+.. image:: /images/questionnaire_logo.png
+You try questionnaire
+---------------------
+Goal: To be able to identify suitable data for use in InaSAFE.
+
+Scenario:
+*You are working in a disaster agency and
+receive a dataset. Evaluate the dataset in
+terms of its suitability for use in InaSAFE. Use
+the letter prefixes from the table above to
+indicate what the mode, category and
+geometry is for each dataset. Put a question
+mark if there is no match, and “yes” or “no” to
+indicate it the data is suitable. The first item is
+completed for you as an example.*
+
++-----------------------------------------------------------------------------------------------+------------------------+
+| Data                                                                                          | Suitable               |
++===============================================================================================+========================+
+| A MODIS raster dataset with multiple bands showing flooded areas for a recent flood event.    |Y/N                     |
++-----------------------------------------------------------------------------------------------+------------------------+
+| A shapefile containing flooded areas from a flood last month with a flood depth for each area.|Y/N                     |
++-----------------------------------------------------------------------------------------------+------------------------+
+| A shapefile containing flood prone areas produced from combining the last 10 flood events.    |Y/N                     |
++-----------------------------------------------------------------------------------------------+------------------------+
+| A single band raster where each cell depicts a flood hazard category of high, medium or low.  |Y/N                     |
++-----------------------------------------------------------------------------------------------+------------------------+
+| A point vector layer showing places where volcano eruptions have taken place.                 |Y/N                     |
++-----------------------------------------------------------------------------------------------+------------------------+
+
+.. image:: /images/tick.png
+Check your results:
+...................
+Swap you list with the person next to you and
+see if they had any different ideas about which
+consitute valid hazard data.
+
+
+
 What is exposure data?
 ----------------------
 
@@ -359,6 +443,111 @@ eruption on crops.
 
 .. _aggregation:
 
+.. sidebar:: Sidebar Title
+    :subtitle: Optional Sidebar Subtitle
+
+    Subsequent indented lines comprise
+    the body of the sidebar, and are
+    interpreted as body elements.
+
+.. topic:: Your Topic Title
+
+    Subsequent indented lines comprise
+    the body of the topic, and are
+    interpreted as body elements.
+
+
+Exposure in InaSAFE
+-------------------
+“In the context of InaSAFE, exposure refers to people, infrastructure or land areas that
+may be affected by a disaster.”
+
+Currently InaSAFE supports these kinds of exposure data: population / people, roads,
+buildings, places, landcover. Exposure datasets need to comply with these modes and
+geometries:
+
++--------------------+-----------------------------------------------+
+| **Exposure Modes** | **Exposure Geometries**                       |
++--------------------+------------------+----------------------------+
+| a) Coninuous data  | c) Vector points | e) Vector polygons         |
++--------------------+------------------+----------------------------+
+| b) Classified data | d) Vector lines  | f) Single band rasters     |
++--------------------+------------------+----------------------------+
+
+.. image:: /images/questionnaire_logo.png
+You try questionnaire
+---------------------
+Goal: To be able to identify suitable data for use in InaSAFE.
+
+*Complete the table below by indicating
+one example exposure type for each geometry
+type and mode. The first entry has been
+completed for you as an example.*
+
++-----------------------------------------------------------------------------------------------+------------------------+
+| **Dataset**                                                                                   | **Example**            |
++===============================================================================================+========================+
+| Continuous data                                                                               | Population areas       |
++-----------------------------------------------------------------------------------------------+------------------------+
+| Classified data                                                                               |Y/N                     |
++-----------------------------------------------------------------------------------------------+------------------------+
+| Vector points                                                                                 |Y/N                     |
++-----------------------------------------------------------------------------------------------+------------------------+
+| Vector lines                                                                                  |Y/N                     |
++-----------------------------------------------------------------------------------------------+------------------------+
+| Vector Polygons                                                                               |Y/N                     |
++-----------------------------------------------------------------------------------------------+------------------------+
+| Single band rasters                                                                           |Y/N                     |
++-----------------------------------------------------------------------------------------------+------------------------+
+
+.. image:: /images/tick.png
+Check your results:
+...................
+Swap you list with the person next to you and
+see if they had any different ideas about which
+consitute valid hazard data.
+
+
+.. image:: /images/InaSAFE_Exercise_logo.png
+You try InaSAFE
+---------------
+In this exercise we will add in some exposure layers, perform a basic selection query and symbolise buildings on wall type.
+
+1. Open QGIS
+
+2. Add in the buildings exposure dataset using the **add vector layer** button.
+
+The buildings vector layer will now be displayed in the main window.
+
+3. Open the attribute table of the buildings layer by right clicking on the layer name in the layers panel and selecting **Open attribute table**.
+
+Notice the fields and values that the buildings layer contains.
+
+4. In the attribute table, click **Select features using expression** button.
+
+The select by expression window appears with some calculation buttons (Operators) and a textbox at the bottom into
+which are typed search expressions (SQL where clause).
+
+5. Create a query to select the buildings with brick wall type.
+
+Notice at the top of the attribute table telling you that number of buildings that have brick wall type.
+
+Now we will symbolise the buildings layer to visually display the different wall types of the buildings.
+
+6. Right click the buildings layer in the table of contents and select **Properties**.
+
+7. In the window that opens select the **Style** tab.
+
+8. At the very top of window select the first drop down list and select **Categorised** from the drop down list.
+
+9. Under the **Column** drop down list, select the name of the attribute field you want to symbolize on your map, which in this case is **Wall_type**.
+
+This will display a list of classes, one for each unique value from the **Wall_type** class
+is assigned a colour symbol. Unless specific colours are selected, QGIS will assign random
+colours, one for each class.
+
+10. Select **OK** and view the results.
+
 What is aggregation?
 --------------------
 
@@ -376,10 +565,78 @@ are provided and the exposure layer is population, |project_name| will
 provide a demographic breakdown per aggregation area indicating how
 many men, women etc. were probably affected in that area.
 
+While it is not required to use aggregation areas in InaSAFE, it is recommended.
+Aggregation areas are typically political boundaries: wards, villages, districts, provinces
+etc. Generally disasters are more localised in scale, so using smaller aggregation units
+often makes sense. Currently InaSAFE supports only vector polygon datasets for use as
+aggregation layers. The aggregation layer used will also determine the analysis area
+when running an analysis in InaSAFE. If a QGIS selection has been made on an
+aggregation layer, the analysis will be constrained to only the selected areas.
+
+
 .. figure:: /images/001_tonga_villages.png
 
    Example of aggregation data for Tongatapu. In this case the aggregation
    areas are villages. Source: PCRAFI.
+
+
+.. image:: /images/questionnaire_logo.png
+You try questionnaire
+---------------------
+Goal: To be able to understand the importance of aggregation data in InaSAFE.
+
+*Think about a disaster prone area in your
+community. Now think about contingency
+planning and post disaster support operations
+for that area. What aggregation area unit
+(ward, village, district, etc.) makes the most
+sense, and why? Use the space provided in the table below
+for your answer and jot down a few
+keywords justifying your choice.*
+
++-----------------------------------------------------------------------------------------------+------------------------+
+| **Aggregation Unit**                                                                          |                        |
++===============================================================================================+========================+
+| Reasoning                                                                                     |                        |
+|                                                                                               |                        |
+|                                                                                               |                        |
+|                                                                                               |                        |
+|                                                                                               |                        |
+|                                                                                               |                        |
+|                                                                                               |                        |
+|                                                                                               |                        |
+|                                                                                               |                        |
+|                                                                                               |                        |
+|                                                                                               |                        |
++-----------------------------------------------------------------------------------------------+------------------------+
+
+.. image:: /images/tick.png
+Check your results:
+...................
+Swap you list with the person next to you and
+see if they had any different ideas about which
+consitute valid hazard data.
+
+
+.. image:: /images/InaSAFE_Exercise_logo.png
+You try InaSAFE
+---------------
+In this exercise you will add in layers that can be used to aggregate inasafe results within specific administation
+boundaries.
+
+1. Add in the below Fiji village and division boundary datasets using the **add vector layer** button.
+
+*   fji_polbnda_adm0_country.shp
+*   fji_polbnda_adm1_district.shp
+*   fji_polbnda_adm2_province.shp
+*   fji_polbnda_adm3_tikina.shp
+
+These administration layers will now be displayed in the main window.
+
+2. Inspect each layer, noticing the differences in each.
+
+These layers can each be used to group or aggregate the results of the analysis.
+
 
 What is contextual data?
 ------------------------
@@ -393,6 +650,38 @@ what buildings and infrastructure exist in the area.
 .. figure:: /images/001_tonga_aerial.png
    
     Aerial imagery for Nuku'alofa, Tonga. Source: PCRAFI.
+
+A practical example using InaSAFE with OSM data
+...............................................
+We mentioned in the overview of exposure data that these data can be easily obtained
+from OpenStreetmap in InaSAFE. In fact InaSAFE have built a service that extracts exposure
+data from OSM, cleans the data, applies standard symbology to it, adds InaSAFE
+keywords, packs everything up in a zip file for easy use in InaSAFE. The service runs on
+an internet server (http://osm.inasafe.org) so requires internet connectivity to use. We
+have built a client for the service directly into InaSAFE.
+
+.. image:: /images/InaSAFE_Exercise_logo.png
+You try InaSAFE
+---------------
+Goal: To be able to add data from OSM.
+
+1. In QGIS look in your InaSAFE toolbar for the OpenStreetmap Downloader.
+
+.. image:: /images/InaSAFE_toolbar_OSM.png
+
+
+2. Run the downloader with the following options.
+
+.. image:: /images/OSM_downloader.png
+
+
+3. Click on the **Drag on map** button and select an area where you want to download the OSM data.
+
+After the data has downloaded, you will notice the data will appear in QGIS.
+
+Is the data you downloaded hazard data, exposure data or aggregate data?
+
+4. ...create steps for imagery plugins using web services...
 
 What is the difference between raster and vector data?
 ------------------------------------------------------
@@ -439,6 +728,8 @@ population exposure.
 
 .. _continuous_vs_classified:
 
+
+
 What is the difference between continuous and classified data?
 --------------------------------------------------------------
 
@@ -466,26 +757,6 @@ people commonly build their houses on raised platforms.
 
    Classified raster flood data - courtesy BNPB/Australian Government
 
-What is the analysis extent?
-----------------------------
-
-In |project_name| you need to explicitly state what the intended
-analysis extent should be. In other words, you need to tell
-|project_name| where the analysis should be carried out. There is a
-tool in |project_name| that will allow you to drag a box around the
-intended analysis area - you should always check that you have done
-this before starting your analysis.
-
-.. figure:: /images/001_analysis_extent.png
-
-   Example extent areas in |project_name|.
-
-|project_name| will show you what your current desired analysis extent
-is (blue box), what the extent of your last analysis was (red box in
-the image above) and what your effective extent is (green box in the
-image above). The effective extent may not correspond exactly to your
-desired analysis extent because |project_name| always aligns the
-extent to the edge of raster pixels.
 
 What is an Impact Function?
 ---------------------------
@@ -512,9 +783,35 @@ layers for which there are Impact Functions.
 
 .. figure:: /images/impact_wizard.png
    :align: center
-   
+
    |project_name| Impact Function Wizard demonstrating possible
    exposure and hazard combinations.
+
+
+.. image:: /images/InaSAFE_Exercise_logo.png
+
+
+You try InaSAFE
+---------------
+
+Goal: View the **Impact function** and get an understanding of the steps in running a guided impact assessment.
+
+1. In QGIS add in the following hazard and exposure datasets
+
++-----------------------------------------------------------------------------------------------+------------------------+
+| **Hazards**                                                                                   | **Exposures**          |
++===============================================================================================+========================+
+| Tsunami flood extent                                                                          | Population             |
++-----------------------------------------------------------------------------------------------+------------------------+
+| Cyclone wind                                                                                  | Buildings              |
++-----------------------------------------------------------------------------------------------+------------------------+
+
+2. Click on the **Impact function**
+
+.. image:: /images/InaSAFE_toolbar_Impact_function.png
+
+
+
 
 
 Supported data types for each hazard type in |project_name|
@@ -632,77 +929,6 @@ Each Impact Function will generate outputs that may include:
 .. image:: /images/001_inasafe_output.png
    :align: center
    :width: 300 pt
-
-
-What is an impact layer?
-------------------------
-An impact layer is a new GIS dataset that is produced as the result of
-running an impact function. It will usually represent the exposure layer.
-For example, if you do a flood  analysis on buildings, the impact layer
-produced will be a buildings layer but each building will be classified
-according to whether it is dry, wet or flooded. |project_name| will typically
-apply its own symbology to the output impact layer to make it clear which
-are the impacted buildings. This is illustrated in the image below.
-
-It should also be noted that the impact layer will only include features /
-cells that occur within the analysis extent. All others will be 'clipped away'.
-It is very important to remember this when interpreting the map legend and the
-impact summary (see section below) because they are only relevant to the
-analysis area.  The impact layer is not saved by default. If you want to
-save this spatial data you need to do this yourself.
-
-.. image:: /images/001_building_output.png
-   :align: center
-   :width: 300 pt
-
-What is the impact summary?
----------------------------
-Whereas the impact layer represents spatial data, the impact summary is
-tabular and textual data. The impact summary provides a table (or series of
-tables) and other textual information with the numbers of buildings, roads or
-people affected, and includes other useful information such as minimum needs
-breakdowns, action checklists and summaries. The impact summary presents the
-results of the impact function in an easy to digest form. Our expectation that
-the numbers show here would form part of the input to your emergency
-management planning process - typically as a launch point for discussion and
-planning on how to have sufficient resources in order to cater for the
-impacted people, buildings or roads should a similar event to the one on
-which the scenario is based occur.
-
-An example of an impact summary is shown below.
-
-.. image:: /images/001_impact_summary_buildings.png
-   :align: center
-   :width: 600 pt
-
-Example impact summary table showing breakdown of buildings flooded.
-
-What are minimum needs?
------------------------
-Minimum needs are a population specific reporting component for the
-impact summary. They are based on generic or regional preferences and define
-the daily food and well-being requirements for each individual who may be
-displaced during a disaster. For example you could specify that each person
-should receive 20l of fresh drinking water per day, 50l of bathing water and
-so on. |project_name| will calculate these numbers to provide an estimate of
-the total needs for the displaced population.
-
-.. image:: /images/001_impact_summary_min_needs.png
-   :align: center
-   :width: 600 pt
-
-What are action checklists?
----------------------------
-Action checklists are generated lists of things disaster managers should
-consider when implementing their disaster management plan. Currently the
-action checklists are fairly simplistic - they are intended to prompt
-discussion and stimulate disaster managers to think about the important
-contingencies they should have in place.
-
-.. image:: /images/001_impact_summary_actions.png
-   :align: center
-   :width: 300 pt
-
 
 Summary
 -------
